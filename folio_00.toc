@@ -1,0 +1,13 @@
+\select@language {italian}
+\contentsline {section}{\numberline {1}Editoriale}{1}
+\contentsline {section}{\numberline {2}Il Fedora Project}{1}
+\contentsline {section}{\numberline {3}Intervista a: Gianluca Sforna}{1}
+\contentsline {section}{\numberline {4}Fedora Inside}{1}
+\contentsline {section}{\numberline {5}FedoraOnLine}{1}
+\contentsline {section}{\numberline {6}Primi passi}{1}
+\contentsline {section}{\numberline {7}Sistema base}{1}
+\contentsline {section}{\numberline {8}Sistema avanzato}{2}
+\contentsline {section}{\numberline {9}Sistema base}{2}
+\contentsline {section}{\numberline {10}Sistema avanzato}{2}
+\contentsline {section}{\numberline {11}Sistema e sicurezza}{2}
+\contentsline {section}{\numberline {12}Notizie}{2}

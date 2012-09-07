@@ -1,0 +1,105 @@
+\twocolumn[
+\begin{center}
+\title{\textcolor{blue}{\Huge Keyserver e generazione di chiavi GPG \\}} % definisco il titolo dell'articolo
+\author{\scriptsize Andrea Veri (averi@fedoraproject.org)} % definisco l'autore e altre informazioni
+\date{}
+\end{center}
+\LARGE Vediamo come usare il keyserver Fedora per la generazione di chiavi GPG\\
+\maketitle
+\normalsize
+\doublespacing
+\hfill
+]
+\onehalfspacing
+\lettrine[lines=1, loversize=0.1, lraise=0.1]{\textcolor{blue}D}{}a pochi giorni ha debuttato in Fedora un interessante servizio denominato "Keys" (raggiungibile all'indirizzo http://keys.fedoraproject.org), si tratta, come si può ben intendere dal nome usato, di un server adibito allo storage di chiavi OpenPGP.\\
+
+Questa tipologia di servizio permette l'inivio e la ricezione di specifiche chiavi di cifratura PGP, le quali vengono selezionate dall'utente a seconda della sua necessità di identificare o di firmare la chiave di un altro soggetto.\\
+
+Ma come funziona esattamente GPG? \\
+
+Il meccanismo risulta essere alquanto semplice ed è, inoltre, similare a quello utilizzato dalla firma digitale, forma di autenticazione dei documenti telematici che oramai sta prendendo piede anche in Italia.\\
+
+GPG, quindi, cifra un determinato messaggio utilizzando una coppia di chiavi (pubblica e privata) generate dall'utente. Il soggetto che riceverà tale messaggio cifrato non dovrà fare altro che verificare l'autenticità della firma e verificarne l'attendibilità. Onde evitare la divulgazione di chiavi false o fittizie e favorire l'associazione chiave pubblica - utente, si è giunti a dare particolare rilevanza al cosiddetto "Web of Trust" (o più comunemente "WoT").\\
+
+Tale concetto è di facile comprensione: si pensi ad un determinato utente che durante un meeting incontra altri individui e dopo aver provveduto ad identificarli tramite un documento d'identità e tramite la verifica della loro impronta digitale (o più comunemente "fingerprint"), firma la loro chiave PGP con la propria, certificandone l'autenticità della provenienza.\\
+
+Questa semplice ma efficace operazione aiuta a rafforzare la rete di fiducia e di conseguenza la stessa credibilità dell'utente stesso.\\
+
+Detto ciò seguirà una brevissima guida che coprirà principalmente tre tematiche:\\
+
+\begin{enumerate}
+ \item la creazione di una chiave PGP 
+ \item la firma di una chiave PGP altrui
+ \item la cifratura di un file decifrabile solamente da una determinata chiave
+\end{enumerate}
+
+\begin{itemize}
+ \item Punto 1. Creazione di una chiave PGP.
+ \begin{itemize}
+  \item 1a. Installiamo il software di riferimento.\\
+  \definecolor{shadecolor}{rgb}{0.8,0.8,0.8}
+   \begin{shaded}
+    \textdollar sudo yum install gnupg
+   \end{shaded}
+  \item 1b. Apriamo un terminale e creiamo la nostra chiave di cifratura.
+   \begin{shaded}
+    \textdollar gpg --gen-key
+   \end{shaded}
+Le impostazioni di default, ovvero quelle che otterrete con un semplice 'Invio' ad ogni richiesta di input da parte di GPG, sono solitamente quelle consigliate ad un utente normale.\\
+
+È però consigliabile impostare una data di scadenza alla chiave nel qual caso perdeste o cadesse in mani sbagliate la vostra chiave privata.\\
+
+\item 1c. Appena generata la chiave, inviatela al Keyserver di Fedora, rendondola così pubblicamente disponibile.\\
+\begin{shaded}
+\textdollar gpg --send-keys KEYID --keyserver hkp://keys.fedoraproject.org
+\end{shaded}\\
+
+Per visualizzare il vostro KEYID, vi basterà digitare il seguente comando:
+\begin{shaded}
+\textdollar gpg --list-secret-keys
+\end{shaded}\\
+Il KEYID sarà la prima linea numerica che vedrete, ad esempio: sec   4096R/93ECD6F8 2012-01-31\\
+\end{itemize}
+\item Punto 2. Firma di una chiave PGP altrui.\\
+\begin{itemize}
+ \item 2a. Otteniamo la chiave che vogliamo firmare dal Keyserver di riferimento.\\
+\begin{shaded}
+\textdollar gpg --recv-key KEYID --keyserver hkp://keys.fedoraproject.org
+\end{shaded}\\
+
+\item 2b. Firmiamo la chiave.\\
+\begin{shaded}
+\textdollar gpg --sign-key KEYID
+\end{shaded}\\
+
+\item 2c. Inviamola nuovamente al keyserver con appresso la nostra firma.\\
+\begin{shaded}
+\textdollar gpg --send-key KEYID
+\end{shaded}\\
+\end{itemize}
+\item Punto 3. Cifratura di un file decifrabile solamente da una determinata chiave.
+\begin{itemize}
+ \item 3a. Otteniamo la chiave di cifratura dell'utente che poi dovrà effettivamente decifrare il nostro messaggio.\\
+\begin{shaded}
+\textdollar gpg --search-keys 'nomeutente@example.com' --keyserver hkp://keys.fedoraproject.org
+\end{shaded}\\
+
+3b. Dopo aver selezionato la chiave corretta dalla lista, verificate che l'importazione è avvenuta correttamente:\\
+\begin{shaded}
+\textdollar gpg --list-keys
+\end{shaded}\\
+
+3c. Infine, cifrate il messaggio:\\
+\begin{shaded}
+\textdollar gpg --encrypt --recipient 'nomeutente@example.com' nomefile.txt
+\end{shaded}\\
+
+3d. Inviate via mail il file appena generato ('nomefile.txt.gpg') all'utente da voi designato, che potrà, quindi, decifrarlo:\\
+
+\begin{shaded}
+\textdollar gpg --output nomefile.txt --decrypt nomefile.txt.gpg
+\end{shaded}\\
+
+In questo caso non servirà importare nessuna chiave dal momento in cui il file di cui sopra è stato cifrato utilizzando la vostra chiave pubblica.
+\end{itemize}
+\end{itemize}

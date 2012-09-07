@@ -1,0 +1,72 @@
+Andrea Veri è un ventiduenne studente della facoltà di Giurisprudenza dell'Università di Udine. Da sempre appassionato di informatica, iniziò nel 2006 a contribuire nei campi della documentazione e del packaging di applicazioni in Ubuntu per poi spostarsi successivamente in Debian, dove ottenne il titolo di sviluppatore ufficiale con i relativi accessi all'archivio prinicipale della distribuzione. Dal 2009, iniziò la sua collaborazione con il progetto GNOME nel quale ricopre alcune posizioni di carattere infrastrutturale, nello specifico, si occupa di amministrare e gestire il server LDAP di GNOME e presiede la GNOME Membership & Elections Committee, la quale si occupa di valutare, accettare o rifiutare le richieste di appartenenza alla Fondazione GNOME e non solo: tale commissione è, inoltre, incaricata di organizzare le elezioni della Board of Directors a Giugno prima del GUADEC.
+
+Dal 2010, Andrea si sposta, pur mantenendo attive le altre sue collaborazioni con Debian e GNOME, in Fedora. I primi gruppi di lavoro furono relativi alle traduzioni in lingua italiana, al gruppo Insight ed a quello Infrastructure. Seguì poi la creazione del sub-planet JustFedora e la successiva candidatura alla Board di Fedora. Al momento, le sue attività si concentrano maggiormente nel packaging RPM e nella amministrazione di sistema di alcune macchine utilizzate dall'infrastruttura di Fedora.
+
+Un Keyserver per Fedora
+
+Da pochi giorni ha debuttato in Fedora un interessante servizio denominato "Keys" (raggiungibile all'indirizzo http://keys.fedoraproject.org), si tratta, come si può ben intendere dal nome usato, di un server adibito allo storage di chiavi OpenPGP. Questa tipologia di servizio permette l'inivio e la ricezione di specifiche chiavi di cifratura PGP, le quali vengono selezionate dall'utente a seconda della sua necessità di identificare o di firmare la chiave di un altro soggetto. Ma come funziona esattamente GPG? Il meccanismo risulta essere alquanto semplice ed è, inoltre, similare a quello utilizzato dalla firma digitale, forma di autenticazione dei documenti telematici che oramai sta prendendo piede anche in Italia. GPG, quindi, cifra un determinato messaggio utilizzando una coppia di chiavi (pubblica e privata) generate dall'utente. Il soggetto che riceverà tale messaggio cifrato non dovrà fare altro che verificare l'autenticità della firma e verificarne l'attendibilità. Onde evitare la divulgazione di chiavi false o fittizie e favorire l'associazione chiave pubblica - utente, si è giunti a dare particolare rilevanza al cosiddetto "Web of Trust" (o più comunemente "WoT"). Tale concetto è di facile comprensione: si pensi ad un determinato utente che durante un meeting incontra altri individui e dopo aver provveduto ad identificarli tramite un documento d'identità e tramite la verifica della loro impronta digitale (o più comunemente "fingerprint"), firma la loro chiave PGP con la propria, certificandone l'autenticità della provenienza. Questa semplice ma efficace operazione aiuta a rafforzare la rete di fiducia e di conseguenza la stessa credibilità dell'utente stesso.
+
+Detto ciò seguirà una brevissima guida che coprirà principalmente tre tematiche:
+
+1. la creazione di una chiave PGP 
+2. la firma di una chiave PGP altrui
+3. la cifratura di un file decifrabile solamente da una determinata chiave
+
+Punto 1. Creazione di una chiave PGP.
+
+1a. Installiamo il software di riferimento.
+
+sudo yum install gnupg
+
+1b. Apriamo un terminale e creiamo la nostra chiave di cifratura.
+
+gpg --gen-key
+
+Le impostazioni di default, ovvero quelle che otterrete con un semplice 'Invio' ad ogni richiesta di input da parte di GPG, sono solitamente quelle consigliate ad un utente normale. È però consigliabile impostare una data di scadenza alla chiave nel qual caso perdeste o cadesse in mani sbagliate la vostra chiave privata.
+
+1c. Appena generata la chiave, inviatela al Keyserver di Fedora, rendondola così pubblicamente disponibile.
+
+gpg --send-keys KEYID --keyserver hkp://keys.fedoraproject.org
+
+Per visualizzare il vostro KEYID, vi basterà digitare il seguente comando:
+
+gpg --list-secret-keys
+
+Il KEYID sarà la prima linea numerica che vedrete, ad esempio: sec   4096R/93ECD6F8 2012-01-31
+
+Punto 2. Firma di una chiave PGP altrui.
+
+2a. Otteniamo la chiave che vogliamo firmare dal Keyserver di riferimento.
+
+gpg --recv-key KEYID --keyserver hkp://keys.fedoraproject.org
+
+2b. Firmiamo la chiave.
+
+gpg --sign-key KEYID
+
+2c. Inviamola nuovamente al keyserver con appresso la nostra firma.
+
+gpg --send-key KEYID
+
+Punto 3. Cifratura di un file decifrabile solamente da una determinata chiave.
+
+3a. Otteniamo la chiave di cifratura dell'utente che poi dovrà effettivamente decifrare il nostro messaggio.
+
+gpg --search-keys 'nomeutente@example.com' --keyserver hkp://keys.fedoraproject.org
+
+3b. Dopo aver selezionato la chiave corretta dalla lista, verificate che l'importazione è avvenuta correttamente:
+
+gpg --list-keys
+
+3c. Infine, cifrate il messaggio:
+
+gpg --encrypt --recipient 'nomeutente@example.com' nomefile.txt
+
+3d. Inviate via mail il file appena generato ('nomefile.txt.gpg') all'utente da voi designato, che potrà, quindi, decifrarlo:
+
+gpg --output nomefile.txt --decrypt nomefile.txt.gpg
+
+In questo caso non servirà importare nessuna chiave dal momento in cui il file di cui sopra è stato cifrato utilizzando la vostra chiave pubblica.
+
+
+

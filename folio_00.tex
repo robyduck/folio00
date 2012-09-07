@@ -1,0 +1,78 @@
+% preambolo, comandi di dichiarazione per gli attributi del documento, validi per tutte le pagine.
+\documentclass[a4paper,onecolumn,oneside,11pt,final]{article} % utilizziamo il package article (che mi permette di inserire contenuti e titoli nella stessa pagina), in formato a4paper, con carattere a 11pt su una colonna, con stesura finale e su una facciata unica
+\usepackage[italian]{babel} % scriviamo in italiano
+\usepackage[T1]{fontenc} % utilizziamo lo standard T1 per la codifica dei caratteri
+\usepackage[default]{cantarell} % utilizziamo il carattere di Fedora
+\usepackage[utf8]{inputenc} % possiamo inserire direttamente dalla tastiera i caratteri accentati
+\usepackage{magaz} % utilizziamo il package aggiuntivo magaz (di default in una installazione di texlive) per utilizzare comandi specifici per le riviste, come la formattazione della prima lettera dell'articolo
+%\usepackage{dejavu} % utilizziamo il package dei fonts dejavu (da inserire come pacchetto aggiuntivo)
+\usepackage{graphicx} % utilizziamo il package graphicx per poter inserire e posizionare immagini
+\usepackage{eso-pic} % utilizziamo il package aggiuntivo eso-pic (di default in una installazione di texlive) per migliorare le funzionalità di posizionamento delle immagini
+\usepackage{wallpaper} % utilizziamo il package wallpaper per facilitare il posizionamento dell'immagine che farà da copertina.
+\usepackage{lettrine} % utilizziamo il package lettrine per i capolettra stile tipografico
+\usepackage{verbatim} % il package verbatim mi consente di utilizzare il comando comment utile per il debug
+\usepackage{shadow} % il package shadow mi consente di utilizzare i box ombreggiati
+\usepackage{framed} % il package framed mi consende di creare box con lo sfondo colorato
+\usepackage{setspace} % il package setspace mi permette di regolare l'interlinea
+\usepackage{geometry} % il package geometry mi permette di aumentare l'area di scrittura
+\usepackage{multicol} % il package multicol mi permette la variazione del numero di colonne
+\usepackage{fancyhdr} % il package fancyhdr implementa abbellimenti per gli header
+\frenchspacing % ottimizza la spaziatura nel documento
+\setlength{\parindent}{0pt} % azzeriamo il rientro dei paragrafi
+\includeonly{
+credits, 
+articoli/editoriale/editoriale, 
+articoli/varie/fedoraproject,
+articoli/varie/intervista,
+articoli/fedora_inside/andrea,
+articoli/editoriale/fol_motivi,
+articoli/primi_passi/terminale,
+articoli/sistema_base/servizi,
+articoli/sistema_base/dracut,
+articoli/sistema_avanzato/creare_rpm,
+articoli/sistema_sicurezza/keyserver,
+articoli/sistema_avanzato/ricompilazione_kernel,
+articoli/notizie/features_f17,
+articoli/varie/ultima_copertina
+} % inserisco i path agli articoli del numero, da richiamare con l'include
+\DeclareGraphicsExtensions{.png, .jpg, .jpeg}%dichiaro le estensioni che è possibile usare per le immagini
+%Inizio del documento vero e proprio, quello che verrà stampato richiamando i comandi presenti nei package che abbiamo richiamato nel preambolo
+\setlength{\columnsep}{12mm} % impostiamo la distanza di 12 mm. tra le colonne
+\ThisTileWallPaper{21cm}{29,7cm}{immagini/copertina/sfondo.jpg} % inseriamo la copertina
+\begin{document}
+\thispagestyle{empty}
+\
+\newpage
+\clearpage
+\pagecolor[cmyk]{0, 0, 0, 0}
+\color{black}
+\pagebreak
+\clearpage
+\include{credits}
+\clearpage
+\include{articoli/editoriale/editoriale}
+\clearpage
+\include{articoli/varie/fedoraproject}
+\clearpage
+\include{articoli/varie/intervista}
+\clearpage
+\include{articoli/fedora_inside/andrea}
+\clearpage
+\include{articoli/editoriale/fol_motivi}
+\clearpage
+\include{articoli/primi_passi/terminale}
+\clearpage
+\include{articoli/sistema_base/servizi}
+\clearpage
+\include{articoli/sistema_base/dracut}
+\clearpage
+\include{articoli/sistema_avanzato/creare_rpm}
+\clearpage
+\include{articoli/sistema_avanzato/ricompilazione_kernel}
+\clearpage
+\include{articoli/sistema_sicurezza/keyserver}
+\clearpage
+\include{articoli/notizie/features_f17}
+\clearpage
+\include{articoli/varie/ultima_copertina}
+\end{document}

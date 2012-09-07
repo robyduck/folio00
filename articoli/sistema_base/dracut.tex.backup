@@ -1,0 +1,123 @@
+\twocolumn[
+\begin{center}
+\title{\color[cmyk]{1, 0.57, 0, 0.38}{\Huge\bfseries Dracut \\}} % definisco il titolo dell'articolo
+\author{\scriptsize Gabriele Trombini (mailga@fedoraonline.it)} % definisco l'autore e altre informazioni
+\date{}
+\end{center}
+{\color[cmyk]{1, 0.46, 0, 0}\LARGE L'initramfs all'avvio di Fedora}\\
+\maketitle
+\normalsize
+\doublespacing
+\hfill
+]
+\definecolor{shadecolor}{cmyk}{0, 0, 0, 0.8}
+\onehalfspacing
+\lettrine[lines=1, loversize=0.1, lraise=0.1]{\color[cmyk]{0.5, 0, 1, 0}\bfseries C}{}ome sappiamo initrd e initramfs (per comodità diciamo che
+quest'ultimo è la versione attuale del precedente) non sono altro che dei file
+systems temporanei, che si collocano nella memoria, usati per caricare e montare
+il file system reale nel sistema.\\
+
+la sequenza boot ordinariamente utilizzata è in due stages:
+\begin{itemize}
+ \item lancio e caricamento kernel con tutti i suoi moduli built-in ovvero i moduli integrati che sono indispensabili al corretto funzionamento di una macchina "base"
+\item lancio di initramfs. Esso è di fatto un "micro sistema in ram" con le directory {\itshape bin - dev - etc- lib - tmp - var} etc... che provvede al caricamento non solo dei moduli atti al montaggio dei filesystem  e quindi del filesystem root, cosa fondamentale, ma anche al montaggio di altri moduli quali ad esempio gli alsa, quelli video (se necessario), con eventuali regole udev su determinati dispositivi, o altri moduli o performance che l'utente (esperto) decide di caricare subito con la modifica di {\itshape /etc/dracut.conf} o con l'inserimento di regole specifiche in {/etc/dracut.conf.d/}.
+\end{itemize}
+
+Per compatibilità con un sistema generico, vengono inseriti al boot parecchi moduli di periferica e di filesystem ed il kernel, aumentando nelle dimensioni e nella quantità di hardware riconosciuto, impiega più tempo a caricarsi perciò si è reso necessario trovare soluzioni che mantengano un tempo ragionevole di start up.\\
+
+A questo scopo è stata introdotta una fase iniziale di root file system in user space che si occupa di rilevare hardware, configurazioni, moduli prima di montare il file system root della macchina.\\
+
+Dracut è quindi lo strumento che permette alla initial ramdisk di caricare solo
+quello che è necessario per l'avvio, creando una initramfs adatta al proprio sistema.\\
+
+Tutto ciò avviene in automatico ma, qualora si avessero delle necessità particolari dovute ad installazioni successive di hardware o moduli che non interpretati dal sistema, è possibile utilizzare la linea di comando per effettuare le operazioni di creazione, variazione, verifica e manutenzione della inintramfs.\\
+
+Il comando generico per poter creare un nuovo file system iniziale è:
+\begin{shaded}
+{\color[cmyk]{0, 0, 0, 0}\# dracut /boot/initramfs-\textdollar(uname -r).img \textdollar(uname -r)}\\
+\end{shaded}
+
+che viene utilizzato, ad esempio, dopo l'installazione dei driver grafici per poterli inserire già nel file system iniziale permettendo una corretta visualizzazione. \\
+
+Come sempre in questi casi occorre sempre leggere il manuale dell'applicazione:
+
+\begin{shaded}
+{\color[cmyk]{0, 0, 0, 0}\textdollar\ man dracut}
+\end{shaded}
+
+all'interno del quale possiamo reperire le istruzioni e le opzioni per creare una immagine ramdisk iniziale integrando o escludendo moduli, filesystems, files di configurazione (compreso quello di deafult di dracut che è {\itshape /etc/dracut.conf}), partizioni e altro.\\
+
+Il file di log conseguente all'utilizzo di dracut, è posto all'interno della
+directory {\itshape /var/log}, sotto il nome di dracut.log:
+
+\begin{shaded}
+{\color[cmyk]{0, 0, 0, 0}\textdollar\ cat /var/log/dracut.log}
+\end{shaded}
+
+E' possibile inserire i parametri anche da linea di comando come descritto nella
+pagina man:
+
+\begin{shaded}
+{\color[cmyk]{0, 0, 0, 0}\textdollar\ man dracut.kernel}
+\end{shaded}
+
+dove vediamo anche opzioni da passare al kernel all'avvio; conosciute ai più attenti perchè utilizzate anche nel grub.cfg di Fedora.\\
+
+Può essere essere interessante guardare all'interno del file della initramfs utilizzando il tool {\itshape lsinitrd}
+che ne permette l'ispezione:
+
+\begin{shaded}
+{\color[cmyk]{0, 0, 0, 0}\# lsinitrd /boot/initramfs-\textdollar(uname -r).img | more}
+\end{shaded}
+
+oppure verificare la presenza e contenuto di uno specifico file:
+
+\begin{shaded}
+{\color[cmyk]{0, 0, 0, 0}\# lsinitrd /boot/initramfs-\textdollar(uname -r).img run/initramfs/shutdown}
+\end{shaded}
+
+I files di configurazione di Dracut, in Fedora, devono essere posizionati all'interno della directory {\itshape /etc/dracut.conf.d/}, mentre il file da poter adattare alle proprie esigenze, commentandone e/o decommentandone le opzioni per meglio rifinire l'avvio, è {\itshape /etc/dracut.conf}.\\
+
+\begin{shaded}
+{\color[cmyk]{0, 0, 0, 0}\textdollar man dracut.conf}
+\end{shaded}
+
+Quanto inserito in {\itshape /etc/dracut.conf.d/} , in ordine numerico, va a sovrascrivere le impostazioni di {\itshape /etc/dracut.conf}, che invece è il file di prima lettura di dracut.\\
+
+La particolarità di Dracut, rimandando quindi alle pagine man per tutte le altre possibili funzionalità, è data dal fatto che, proprio per adattare la singola macchina alle proprie necessità, si possa dotare la initramfs degli strumenti necessari all'avvio.\\
+
+Utilizzando l'opzione {\itshape--include}, infatti, si possono inserire all'interno della initramfs i propri file di utilità particolare, ad esempio con il comando:
+
+\begin{shaded}
+{\color[cmyk]{0, 0, 0, 0}\# dracut --include /bin/cat / run/initramfs/usr/sbin initramfs-cat.img}
+\end{shaded}
+è possibile insterire il comando cat all'interno della directory {\itshape run/initramfs/usr/sbin} della initial ramdisk.\\
+
+L'opzione {\itshape --install} consente di poter specificare diversi eseguibili che dovessimo ritenere utili all'avvio, rilevando anche le relative dipendenze:
+
+\begin{shaded}
+{\color[cmyk]{0, 0, 0, 0}\# dracut --install 'nmap ssh' initramfs-rete.img}
+\end{shaded}
+
+Vale la pena, anche, di ricordare che Dracut ha accesso ad una CLI, da dove si può cercare di fare un avvio manuale del sistema.\\
+
+Togliendo  {\itshape rhgb} e {\itshape quiet} ed aggiungendo {\itshape rdshell} alle opzioni del kernel, si avrà a disposizione una shell con la quale cercare di eseguire il boot (per poi, magari, ricostruire la initial ramdisk una volta autenticati).\\
+
+Tra i parametri utili per una analisi del sistema avremo a disposizione:
+
+\begin{itemize}
+ \item {\itshape rdshell}\\
+    come detto, inserendo questo comando si avrà accesso ad una shell di Dracut.
+ \item {\itshape rdinitdebug}\\
+    per un livello di debug più approfondito, con stampa dei comandi.
+ \item {\itshape rdbreak=[pre-udev | pre-mount | mount | pre-pivot |]} \\
+    aggiungendo questo parametro, la shell si fermerà prima di superare il punto dato come argomento. 
+ \item {\itshape rdudevinfo} \\
+    imposta udev ad un livello informativo massimo.
+ \item {\itshape rdudevdebug} \\
+    imposta udev ad un livello di debug.
+ \item {\itshape rdnetdebug} \\
+    verifica le connessioni network, l'output viene inserito in /tmp.
+\end{itemize}
+
+Questa breve panoramica non ha certo la pretesa di essere l'approfondimento che l'argomento Dracut richiede, ma di certo è 

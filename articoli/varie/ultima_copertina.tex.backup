@@ -1,0 +1,28 @@
+\begin{titlepage}
+\thispagestyle{empty}
+\doublespacing
+\textsc{\LARGE FOLIO - Il webmagazine di FedoraOnLine}\\[1.0cm]
+\textsc{\Large rivista non professionale tematica e libera creata dai lettori di FedoraOnLine, scaricabile e dai contenuti forniti dagli utenti Fedora in italia e nel mondo.}\\[0.5cm]
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=1.0]{immagini/logo/cc.png}
+\end{figure}\\
+{\bfseries Folio ed i suoi contenuti sono distribuiti con licenza creative commons, reperibile a questo link: http://creativecommons.org/licenses/by-sa/3.0/it/ }\\[0.4cm]
+{\doublespacing\\}
+\begin{tiny}
+\begin{spacing}{1.0}
+Questa rivista segue le linee guida dettate dal Fedora Project reperibile all'indirizzo  http://fedoraproject.org/wiki/Legal:Trademark\_guidelines:\\
+{\bfseries Publications}\\
+``It is permissible to use the Fedora trademarks in the title and content of a publication, provided that:
+    the use is clearly in reference to the Fedora Project or its software
+    the use does not imply sponsorship or endorsement by Red Hat or the Fedora Project
+    Proper trademark symbols are used in connection with the Fedora Trademarks and the trademark attribution statement must appear as explained in Proper Trademark Use.'' \\
+Fedora\textregistered and the Infinity design logo are trademarks of Red Hat, Inc.
+\end{spacing}
+\end{tiny}
+\rule{\textwidth}{0.5mm}\\
+{\doublespacing\\}
+\vfill
+\noindent
+
+\end{titlepage}
