@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.12.23)  4 MAR 2012 13:57
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.26)  9 SEP 2012 23:25
 entering extended mode
  %&-line parsing enabled.
 **folio_00.tex
@@ -48,95 +48,10 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/share/texmf/tex/latex/cantarell/cantarell.sty
-Package: cantarell 2011/07/24 Cantarell
-
-(/usr/share/texmf/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-(/usr/share/texmf/tex/latex/slantsc/slantsc.sty
-Package: slantsc 2003/11/09 v2.10 Provide Slanted an Italic Small Caps
-
-(/usr/share/texmf/tex/latex/base/ifthen.sty
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
-)
-LaTeX Info: Redefining \upshape on input line 35.
-LaTeX Info: Redefining \slshape on input line 45.
-LaTeX Info: Redefining \itshape on input line 55.
-LaTeX Info: Redefining \scshape on input line 65.
-)
-(/usr/share/texmf/tex/latex/base/textcomp.sty
-Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
-
-(/usr/share/texmf/tex/latex/base/ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-)
-LaTeX Info: Redefining \oldstylenums on input line 266.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
-))
 (/usr/share/texmf/tex/latex/base/inputenc.sty
 Package: inputenc 2006/05/05 v1.1b Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
 
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2006/03/30 v1.1i UTF-8 support for inputenc
@@ -341,81 +256,6 @@ Now handling font encoding U ...
 ... no UTF-8 mapping file for font encoding U
 Now handling font encoding LGR ...
 ... no UTF-8 mapping file for font encoding LGR
-Now handling font encoding TS1 ...
-... processing UTF-8 mapping file for font encodingTS1
-
-(/usr/share/texmf/tex/latex/base/ts1enc.dfu
-File: ts1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
-   defining Unicode char U+00A2 (decimal 162)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A5 (decimal 165)
-   defining Unicode char U+00A6 (decimal 166)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00A8 (decimal 168)
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AC (decimal 172)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00AF (decimal 175)
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00B1 (decimal 177)
-   defining Unicode char U+00B2 (decimal 178)
-   defining Unicode char U+00B3 (decimal 179)
-   defining Unicode char U+00B4 (decimal 180)
-   defining Unicode char U+00B5 (decimal 181)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+00B9 (decimal 185)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+00BC (decimal 188)
-   defining Unicode char U+00BD (decimal 189)
-   defining Unicode char U+00BE (decimal 190)
-   defining Unicode char U+00D7 (decimal 215)
-   defining Unicode char U+00F7 (decimal 247)
-   defining Unicode char U+0192 (decimal 402)
-   defining Unicode char U+02C7 (decimal 711)
-   defining Unicode char U+02D8 (decimal 728)
-   defining Unicode char U+02DD (decimal 733)
-   defining Unicode char U+0E3F (decimal 3647)
-   defining Unicode char U+2016 (decimal 8214)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+203B (decimal 8251)
-   defining Unicode char U+203D (decimal 8253)
-   defining Unicode char U+2044 (decimal 8260)
-   defining Unicode char U+204E (decimal 8270)
-   defining Unicode char U+2052 (decimal 8274)
-   defining Unicode char U+20A1 (decimal 8353)
-   defining Unicode char U+20A4 (decimal 8356)
-   defining Unicode char U+20A6 (decimal 8358)
-   defining Unicode char U+20A9 (decimal 8361)
-   defining Unicode char U+20AB (decimal 8363)
-   defining Unicode char U+20AC (decimal 8364)
-   defining Unicode char U+20B1 (decimal 8369)
-   defining Unicode char U+2103 (decimal 8451)
-   defining Unicode char U+2116 (decimal 8470)
-   defining Unicode char U+2117 (decimal 8471)
-   defining Unicode char U+211E (decimal 8478)
-   defining Unicode char U+2120 (decimal 8480)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2126 (decimal 8486)
-   defining Unicode char U+2127 (decimal 8487)
-   defining Unicode char U+212E (decimal 8494)
-   defining Unicode char U+2190 (decimal 8592)
-   defining Unicode char U+2191 (decimal 8593)
-   defining Unicode char U+2192 (decimal 8594)
-   defining Unicode char U+2193 (decimal 8595)
-   defining Unicode char U+2329 (decimal 9001)
-   defining Unicode char U+232A (decimal 9002)
-   defining Unicode char U+2422 (decimal 9250)
-   defining Unicode char U+25E6 (decimal 9702)
-   defining Unicode char U+25EF (decimal 9711)
-   defining Unicode char U+266A (decimal 9834)
-)
    defining Unicode char U+00A9 (decimal 169)
    defining Unicode char U+00AA (decimal 170)
    defining Unicode char U+00AE (decimal 174)
@@ -435,6 +275,10 @@ Package: magaz 2003/09/04 v0.2
 (/usr/share/texmf/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
 (/usr/share/texmf/tex/latex/graphics/graphics.sty
 Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
@@ -462,6 +306,9 @@ Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 (/usr/share/texmf/tex/latex/wallpaper/wallpaper.sty
 Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
 
+(/usr/share/texmf/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
 (/usr/share/texmf/tex/latex/tools/calc.sty
 Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count89
@@ -631,30 +478,8 @@ LaTeX Font Info:    Try loading font information for LGR+cmr on input line 42.
 File: lgrcmr.fd 2001/01/30 v2.2e Greek Computer Modern
 )
 LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 42.
 
-(/usr/share/texmf/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Try loading font information for T1+fca on input line 42.
-
-(/usr/share/texmf/tex/latex/cantarell/t1fca.fd
-File: t1fca.fd 2011/11/11 Fontinst v1.933 font definitions for T1/fca.
-)
-(/usr/share/texmf/tex/context/base/supp-pdf.tex
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
-\scratchdimen=\dimen140
-\scratchbox=\box57
-\nofMPsegments=\count106
-\nofMParguments=\count107
-\MPscratchCnt=\count108
-\MPscratchDim=\dimen141
-\MPnumerator=\count109
-\everyMPtoPDFconversion=\toks20
-) ABD: EveryShipout initializing macros
+ABD: EveryShipout initializing macros
 (/usr/share/texmf/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
@@ -703,27 +528,24 @@ driver: pdftex
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
 
-<immagini/copertina/sfondo.jpg, id=1, 746.79pt x 1055.945pt>
-File: immagini/copertina/sfondo.jpg Graphic file (type jpg)
+<immagini/copertina/folio.jpg, id=1, 597.432pt x 844.8363pt>
+File: immagini/copertina/folio.jpg Graphic file (type jpg)
 
-<use immagini/copertina/sfondo.jpg>
-File: immagini/copertina/sfondo.jpg Graphic file (type jpg)
- <use immagini/copertina/sfondo.jpg>
-[1
+<use immagini/copertina/folio.jpg>
+File: immagini/copertina/folio.jpg Graphic file (type jpg)
+ <use immagini/copertina/folio.jpg> [1
 
- <./immagini/copertina/sfondo.jpg>]
-\GPT@outputbox=\box58
+ <./immagini/copertina/folio.jpg>]
+\GPT@outputbox=\box57
 \openout2 = `credits.aux'.
 
  (./credits.tex
 <immagini/logo/cc.png, id=6, 80.3pt x 15.05624pt>
 File: immagini/logo/cc.png Graphic file (type png)
  <use immagini/logo/cc.png>
-LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 10.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--13
-
+Overfull \hbox (1.07146pt too wide) in paragraph at lines 4--13
+\T1/cmr/m/sc/14.4 let-to-ri di Fe-do-raOn-Li-ne, sca-ri-ca-bi-le e dai con-te-n
+u-ti for-
  []
 
 
@@ -731,14 +553,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--13
 
  []
 
-LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <6> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 15.
-LaTeX Font Info:    Try loading font information for TS1+fca on input line 20.
-(/usr/share/texmf/tex/latex/cantarell/ts1fca.fd
-File: ts1fca.fd 2011/11/11 Fontinst v1.933 font definitions for TS1/fca.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--13
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
+(/usr/share/texmf/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 23--25
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 20.
 
+Overfull \hbox (38.43962pt too wide) in paragraph at lines 14--21
+[]\T1/cmr/m/n/6 Questa ri-vi-sta se-gue le li-nee gui-da det-ta-te dal Fe-do-ra
+ Pro-ject re-pe-ri-bi-le al-l'in-di-riz-zo http://fedoraproject.org/wiki/Legal:
+Trademark_guidelines: 
  []
 
 
@@ -746,20 +580,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
-LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <12> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 31.
-LaTeX Font Info:    Font shape `T1/fca/bx/it' in size <12> not available
-(Font)              Font shape `T1/fca/b/it' tried instead on input line 31.
-LaTeX Font Info:    Font shape `T1/fca/b/it' in size <12> not available
-(Font)              Font shape `T1/fca/b/sl' tried instead on input line 31.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 53.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 53.
 
-Overfull \hbox (2.26663pt too wide) in paragraph at lines 26--69
+Overfull \hbox (2.4216pt too wide) in paragraph at lines 26--69
 $[]$ $[]$ 
  []
 
@@ -767,23 +598,17 @@ $[]$ $[]$
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./immagini/logo/cc.png (PN
-G copy)>]
-LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 75.
+{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map} <./immagini/logo/cc.png (
+PNG copy)>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 75.
 
 
 LaTeX Warning: No \author given.
 
-LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 79.
-LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <8> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 79.
 
-Overfull \hbox (4.23456pt too wide) in paragraph at lines 80--81
-\T1/fca/m/n/10 Spiegati i mo-ti-vi di que-sto Web-ma-ga-zi-ne, for-
+Overfull \hbox (4.06358pt too wide) in paragraph at lines 91--93
+\T1/cmr/m/n/10 Cronistoria e re-tro-sce-na del pas-sag-gio da FOL
  []
 
 [2
@@ -793,15 +618,22 @@ Overfull \hbox (4.23456pt too wide) in paragraph at lines 80--81
 \openout2 = `articoli/editoriale/editoriale.aux'.
 
  (./articoli/editoriale/editoriale.tex
-LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 12.
-
 Underfull \hbox (badness 10000) in paragraph at lines 12--12
 
  []
 
-LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <35.74854> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 14.
+
+LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <24.25963> not available
+(Font)              size <24.88> substituted on input line 14.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <34.35164> not available
+(Font)              size <35.83> substituted on input line 14.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <34.35164> not available
+(Font)              size <35.83> substituted on input line 14.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
@@ -823,31 +655,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
  []
 
 
+Overfull \hbox (0.376pt too wide) in paragraph at lines 23--24
+\T1/cmr/m/n/10.95 si-zio-ne di Fe-do-raOn-Li-ne, per-tan-to ciò che
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-<articoli/editoriale/immagini/fol.jpeg, id=18, 933.61041pt x 348.55219pt>
+<articoli/editoriale/immagini/fol.jpeg, id=27, 933.61041pt x 348.55219pt>
 File: articoli/editoriale/immagini/fol.jpeg Graphic file (type jpg)
 
 <use articoli/editoriale/immagini/fol.jpeg>
-Overfull \hbox (2.46028pt too wide) in paragraph at lines 31--32
-\T1/fca/m/n/10.95 pa-te te-ma-ti-che con-nes-se a Fe-do-ra, al Fe-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
- []
-
-
-Overfull \hbox (4.83641pt too wide) in paragraph at lines 33--34
-[]\T1/fca/m/n/10.95 Ma non so-lo! Fe-do-raOn-Li-ne, tra-mi-te que-
- []
-
-
-Overfull \hbox (0.76303pt too wide) in paragraph at lines 33--34
-\T1/fca/m/n/10.95 no nel-l'av-vi-ci-na-men-to a GNU/linux, crea-
  []
 
 
@@ -861,12 +683,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
 
  <./articoli/editoriale/immagini/fol.jpeg>]
+Overfull \hbox (0.87016pt too wide) in paragraph at lines 35--36
+\T1/cmr/m/n/10.95 pro-fes-sio-ni-sti del-la car-ta stam-pa-ta, nè vo-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-LaTeX Font Info:    Font shape `T1/fca/m/it' in size <10.95> not available
-(Font)              Font shape `T1/fca/m/sl' tried instead on input line 37.
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
@@ -878,27 +703,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
  []
 
 
-<articoli/editoriale/immagini/libro_copertina.jpg, id=22, 134.5025pt x 190.7125
+<articoli/editoriale/immagini/libro_copertina.jpg, id=36, 134.5025pt x 190.7125
 pt>
 File: articoli/editoriale/immagini/libro_copertina.jpg Graphic file (type jpg)
  <use articoli/editoriale/immagini/libro_copertina.jpg>
-Overfull \hbox (1.60617pt too wide) in paragraph at lines 47--48
-[]\T1/fca/m/n/10.95 Ovviamente sia-mo del tut-to aper-ti a con-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
- []
-
-
-Overfull \hbox (1.8909pt too wide) in paragraph at lines 49--50
-[]\T1/fca/m/n/10.95 In que-sto pri-mo nu-me-ro co-min-ce-re-mo ad
- []
-
-
-Overfull \hbox (1.63902pt too wide) in paragraph at lines 49--50
-\T1/fca/m/n/10.95 do-ne gli obiet-ti-vi e par-lan-do-ne un po' con
  []
 
 
@@ -931,17 +741,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
  []
 
 
-Overfull \hbox (4.65028pt too wide) in paragraph at lines 15--16
-\T1/fca/m/sl/10.95 (http://fedoraproject.org/) \T1/fca/m/n/10.95 che si può de-
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<articoli/varie/immagini/fp.jpeg, id=27, 931.39806pt x 369.63094pt>
+<articoli/varie/immagini/fp.jpeg, id=41, 931.39806pt x 369.63094pt>
 File: articoli/varie/immagini/fp.jpeg Graphic file (type jpg)
 
 <use articoli/varie/immagini/fp.jpeg>
@@ -955,8 +759,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 
-Overfull \hbox (0.21545pt too wide) in paragraph at lines 27--29
-\T1/fca/m/sl/10.95 http://it.redhat.com/resourcelibrary/arti
+Overfull \hbox (83.24257pt too wide) in paragraph at lines 27--29
+\T1/cmr/m/it/10.95 http://it.redhat.com/resourcelibrary/arti cles/relationship-
+
  []
 
 
@@ -990,6 +795,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
  []
 
 
+Overfull \hbox (6.05313pt too wide) in paragraph at lines 38--40
+\T1/cmr/m/it/10.95 in-clu-do-no il sup-por-to dei di-pen-den-ti a tem-
+ []
+
+
+Overfull \hbox (3.2783pt too wide) in paragraph at lines 38--40
+\T1/cmr/m/it/10.95 po pie-no, in-fra-strut-tu-re hard-ware e di ban-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
  []
@@ -997,6 +812,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
+ []
+
+
+Overfull \hbox (6.37076pt too wide) in paragraph at lines 43--46
+\T1/cmr/m/n/10.95 di-ven-te-ran-no par-te in-te-gran-te del-l'i-dea che
  []
 
 
@@ -1010,6 +830,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--51
  []
 
 
+Overfull \hbox (4.86798pt too wide) in paragraph at lines 52--56
+\T1/cmr/m/n/10.95 ri-dut-ti-vo, in-fat-ti, qua-li-fi-ca-re il Fe-do-ra Pro-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 52--56
 
  []
@@ -1019,27 +844,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--60
 
  []
 
-[4] <articoli/varie/immagini/4f-freedom.png, id=36, 80.3pt x 80.3pt>
+[4]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
+ <articoli/varie/immagini/4f-freedom.png, id=49, 80.3pt x 80.3pt>
 File: articoli/varie/immagini/4f-freedom.png Graphic file (type png)
 
 <use articoli/varie/immagini/4f-freedom.png>
-<articoli/varie/immagini/4f-friends.png, id=37, 80.3pt x 80.3pt>
+<articoli/varie/immagini/4f-friends.png, id=50, 80.3pt x 80.3pt>
 File: articoli/varie/immagini/4f-friends.png Graphic file (type png)
 
 <use articoli/varie/immagini/4f-friends.png>
-<articoli/varie/immagini/4f-features.png, id=38, 80.3pt x 80.3pt>
+<articoli/varie/immagini/4f-features.png, id=51, 80.3pt x 80.3pt>
 File: articoli/varie/immagini/4f-features.png Graphic file (type png)
 
 <use articoli/varie/immagini/4f-features.png>
-<articoli/varie/immagini/4f-first.png, id=39, 80.3pt x 80.3pt>
+<articoli/varie/immagini/4f-first.png, id=52, 80.3pt x 80.3pt>
 File: articoli/varie/immagini/4f-first.png Graphic file (type png)
 
 <use articoli/varie/immagini/4f-first.png>
-Overfull \hbox (3.1501pt too wide) in paragraph at lines 72--73
-\T1/fca/m/n/10.95 e cia-scun con-tri-bu-to de-ve ri-spet-ta-re que-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
@@ -1054,63 +877,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-<articoli/varie/immagini/join-writer.png, id=40, 67.452pt x 74.679pt>
+<articoli/varie/immagini/join-writer.png, id=53, 67.452pt x 74.679pt>
 File: articoli/varie/immagini/join-writer.png Graphic file (type png)
 
 <use articoli/varie/immagini/join-writer.png>
-<articoli/varie/immagini/join-designer.png, id=41, 71.467pt x 75.482pt>
+<articoli/varie/immagini/join-designer.png, id=54, 71.467pt x 75.482pt>
 File: articoli/varie/immagini/join-designer.png Graphic file (type png)
 
 <use articoli/varie/immagini/join-designer.png>
-<articoli/varie/immagini/join-people.png, id=42, 70.664pt x 74.679pt>
+<articoli/varie/immagini/join-people.png, id=55, 70.664pt x 74.679pt>
 File: articoli/varie/immagini/join-people.png Graphic file (type png)
 
 <use articoli/varie/immagini/join-people.png>
-<articoli/varie/immagini/join-osdevel.png, id=43, 52.998pt x 74.679pt>
+<articoli/varie/immagini/join-osdevel.png, id=56, 52.998pt x 74.679pt>
 File: articoli/varie/immagini/join-osdevel.png Graphic file (type png)
 
 <use articoli/varie/immagini/join-osdevel.png>
-<articoli/varie/immagini/join-translator.png, id=44, 73.876pt x 74.679pt>
+<articoli/varie/immagini/join-translator.png, id=57, 73.876pt x 74.679pt>
 File: articoli/varie/immagini/join-translator.png Graphic file (type png)
 
 <use articoli/varie/immagini/join-translator.png>
-<articoli/varie/immagini/join-webdevel.png, id=45, 62.634pt x 77.088pt>
+<articoli/varie/immagini/join-webdevel.png, id=58, 62.634pt x 77.088pt>
 File: articoli/varie/immagini/join-webdevel.png Graphic file (type png)
 
 <use articoli/varie/immagini/join-webdevel.png>
-Overfull \hbox (0.45631pt too wide) in paragraph at lines 85--86
-[][] \T1/fca/m/n/10.95 svi-lup-pa-to-re web o am-mi-ni-stra-
- []
-
-
-Overfull \hbox (1.03677pt too wide) in paragraph at lines 87--88
-\T1/fca/m/n/10.95 Prima di an-da-re ad ana-liz-za-re que-sti ruo-
- []
-
-
-Overfull \hbox (0.97028pt too wide) in paragraph at lines 87--88
-\T1/fca/m/n/10.95 li, è be-ne spe-ci-fi-ca-re il ruo-lo del FAS (Fe-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Overfull \hbox (1.35434pt too wide) in paragraph at lines 89--90
-\T1/fca/m/sl/10.95 ad-min.fedoraproject.org/accounts/user/
+Overfull \hbox (1.07924pt too wide) in paragraph at lines 89--90
+[]\T1/cmr/m/n/10.95 Il FAS, rag-giun-gi-bi-le al-l'in-di-riz-zo \T1/cmr/m/it/10
+.95 https://
  []
 
 
-Overfull \hbox (2.99675pt too wide) in paragraph at lines 89--90
-\T1/fca/m/sl/10.95 new \T1/fca/m/n/10.95 è il si-ste-ma per po-ter ri-chie-de-r
-e l'as-
- []
-
-
-Overfull \hbox (4.73778pt too wide) in paragraph at lines 89--90
-\T1/fca/m/n/10.95 am-mi-ni-stra-to-ri. In-fat-ti gli iscrit-ti so-no tut-
+Overfull \hbox (16.17827pt too wide) in paragraph at lines 89--90
+\T1/cmr/m/it/10.95 ad-min.fedoraproject.org/accounts/user/ new
  []
 
 
@@ -1118,7 +921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-<articoli/varie/immagini/mailga-wiki.jpeg, id=46, 907.7997pt x 494.59781pt>
+<articoli/varie/immagini/mailga-wiki.jpeg, id=59, 907.7997pt x 494.59781pt>
 File: articoli/varie/immagini/mailga-wiki.jpeg Graphic file (type jpg)
 
 <use articoli/varie/immagini/mailga-wiki.jpeg>
@@ -1145,28 +948,23 @@ oli/varie/immagini/join-osdevel.png> <./articoli/varie/immagini/join-translator
 mailga-wiki.jpeg>]
 File: articoli/varie/immagini/join-designer.png Graphic file (type png)
  <use articoli/varie/immagini/join-designer.png>
-Overfull \hbox (0.93822pt too wide) in paragraph at lines 110--111
-\T1/fca/m/n/10.95 vi-tà con-ge-nia-le chi è par-ti-co-lar-men-te abi-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
 File: articoli/varie/immagini/join-people.png Graphic file (type png)
 <use articoli/varie/immagini/join-people.png>
+Overfull \hbox (2.01112pt too wide) in paragraph at lines 116--117
+[]\T1/cmr/m/n/10.95 Questa ma-cro-se-zio-ne è pen-sa-ta per le per-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
 File: articoli/varie/immagini/join-osdevel.png Graphic file (type png)
 <use articoli/varie/immagini/join-osdevel.png>
-Overfull \hbox (0.48927pt too wide) in paragraph at lines 122--123
-\T1/fca/m/n/10.95 scen-ze sul-la pro-gram-ma-zio-ne po-treb-be-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
@@ -1177,8 +975,8 @@ File: articoli/varie/immagini/join-translator.png Graphic file (type png)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (0.83961pt too wide) in paragraph at lines 128--129
-\T1/fca/m/n/10.95 per la dif-fu-sio-ne del si-ste-ma nei va-ri pae-
+Overfull \hbox (7.32742pt too wide) in paragraph at lines 128--129
+[]\T1/cmr/m/n/10.95 Un'altra se-zio-ne ve-ra-men-te im-por-tan-te per
  []
 
 
@@ -1210,7 +1008,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
 
  []
 
-<articoli/varie/immagini/giallu.jpg, id=63, 565.62337pt x 372.64218pt>
+<articoli/varie/immagini/giallu.jpg, id=77, 565.62337pt x 372.64218pt>
 File: articoli/varie/immagini/giallu.jpg Graphic file (type jpg)
 
 <use articoli/varie/immagini/giallu.jpg>
@@ -1218,48 +1016,17 @@ Overfull \hbox (5.91594pt too wide) in paragraph at lines 15--15
  [][] 
  []
 
-LaTeX Font Info:    Font shape `T1/fca/m/it' in size <9> not available
-(Font)              Font shape `T1/fca/m/sl' tried instead on input line 28.
-LaTeX Font Info:    Font shape `T1/fca/bx/it' in size <9> not available
-(Font)              Font shape `T1/fca/b/it' tried instead on input line 28.
-LaTeX Font Info:    Font shape `T1/fca/b/it' in size <9> not available
-(Font)              Font shape `T1/fca/b/sl' tried instead on input line 28.
-LaTeX Font Info:    Font shape `T1/fca/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/fca/b/it' tried instead on input line 33.
-LaTeX Font Info:    Font shape `T1/fca/b/it' in size <10.95> not available
-(Font)              Font shape `T1/fca/b/sl' tried instead on input line 33.
-<articoli/varie/immagini/badge.jpg, id=64, 770.88pt x 1027.84pt>
+<articoli/varie/immagini/badge.jpg, id=78, 770.88pt x 1027.84pt>
 File: articoli/varie/immagini/badge.jpg Graphic file (type jpg)
 
 <use articoli/varie/immagini/badge.jpg>
-Overfull \hbox (1.24483pt too wide) in paragraph at lines 33--39
-\T1/fca/b/sl/10.95 Giallu: \T1/fca/m/n/10.95 Il pro-get-to non è nes-su-no in p
-ar-
- []
-
-
-Overfull \hbox (0.18275pt too wide) in paragraph at lines 33--39
-\T1/fca/m/n/10.95 ho par-te-ci-pa-to ad Eu-ro-Py-thon 2011 con
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 33--39
 
  []
 
 
-Overfull \hbox (6.68694pt too wide) in paragraph at lines 40--42
-\T1/fca/m/n/10.95 pro-muo-vo-no sen-z'al-tro il pro-get-to e i suoi
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
- []
-
-
-Overfull \hbox (10.96841pt too wide) in paragraph at lines 43--46
-[]\T1/fca/b/sl/10.95 FOL: 3) sba-glia qual-co-sa, il Fe-do-ra Pro-
  []
 
 
@@ -1273,24 +1040,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--46
 
 
  <./articoli/varie/immagini/giallu.jpg> <./articoli/varie/immagini/badge.jpg>]
-Overfull \hbox (8.18707pt too wide) in paragraph at lines 47--49
-\T1/fca/m/n/10.95 mi-ro l'or-ga-niz-za-zio-ne com-ples-si-va che rie-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
 
-Overfull \hbox (0.97105pt too wide) in paragraph at lines 50--52
-\T1/fca/b/sl/10.95 Giallu: \T1/fca/m/n/10.95 Cre-do che i due even-ti sia-no pr
-o-
- []
-
-
-Overfull \hbox (1.62808pt too wide) in paragraph at lines 50--52
-\T1/fca/m/n/10.95 mun-que sul fat-to che sia-no even-ti di ``nic-
+Overfull \hbox (0.92964pt too wide) in paragraph at lines 50--52
+\T1/cmr/bx/it/10.95 fe-ri-sco-no sem-pre agli stes-si am-bien-
  []
 
 
@@ -1299,34 +1055,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--52
  []
 
 
-Overfull \hbox (1.1573pt too wide) in paragraph at lines 53--56
-[]\T1/fca/b/sl/10.95 FOL: 6) do-ve pen-sa-te che si pos-sa es-
- []
-
-
-Overfull \hbox (2.17552pt too wide) in paragraph at lines 53--56
-\T1/fca/b/sl/10.95 Giallu: \T1/fca/m/n/10.95 Di-rei un po' ovun-que: scuo-le, u
-ni-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 53--56
 
  []
 
 
-Overfull \hbox (3.74152pt too wide) in paragraph at lines 57--61
-[]\T1/fca/b/sl/10.95 FOL: 7) per-chè l'u-ten-te do-vreb-be usa-
- []
-
-
-Overfull \hbox (1.20102pt too wide) in paragraph at lines 57--61
-\T1/fca/m/n/10.95 men-te clic-can-do-ci so-pra (per in-ci-so, que-
- []
-
-
-Overfull \hbox (2.29597pt too wide) in paragraph at lines 57--61
-\T1/fca/m/n/10.95 cen-te soft-ware li-be-ro: per esem-pio, mol-
+Overfull \hbox (7.56862pt too wide) in paragraph at lines 57--61
+[]\T1/cmr/bx/it/10.95 FOL: 7) per-chè l'u-ten-te do-vreb-be usa-
  []
 
 
@@ -1335,25 +1070,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--61
  []
 
 [8]
-Overfull \hbox (9.26021pt too wide) in paragraph at lines 62--64
-\T1/fca/b/sl/10.95 Giallu: \T1/fca/m/n/10.95 Si-cu-ra-men-te no: il la-vo-ro no
-n man-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
 
-Overfull \hbox (2.33978pt too wide) in paragraph at lines 65--67
-\T1/fca/b/sl/10.95 Giallu: \T1/fca/m/n/10.95 Si-cu-ra-men-te. La bar-rie-ra al-
-la par-
- []
-
-
-Overfull \hbox (4.80354pt too wide) in paragraph at lines 65--67
-\T1/fca/m/n/10.95 te-ci-pa-zio-ne al pro-get-to è sem-pre più bas-
+Overfull \hbox (6.64566pt too wide) in paragraph at lines 65--67
+\T1/cmr/bx/it/10.95 Giallu: \T1/cmr/m/n/10.95 Si-cu-ra-men-te. La bar-rie-ra al
+-la par-
  []
 
 
@@ -1366,7 +1090,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--57
 
  []
 
-[9]
+[9] [10
+
+]
 \openout2 = `articoli/fedora_inside/andrea.aux'.
 
  (./articoli/fedora_inside/andrea.tex
@@ -1375,13 +1101,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
  []
 
 
-Overfull \hbox (1.651pt too wide) in paragraph at lines 14--15
-$[]$[]\T1/fca/m/n/10.95 in da que-sta pri-ma usci-ta e con gran-
+Overfull \hbox (0.80571pt too wide) in paragraph at lines 14--15
+$[]$[]\T1/cmr/m/n/10.95 in da que-sta pri-ma usci-ta e con gran-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
+ []
+
+
+Overfull \hbox (0.14104pt too wide) in paragraph at lines 16--17
+\T1/cmr/m/n/10.95 spie-ghe-rà di-na-mi-che vi-ste dal-l'in-ter-no del
  []
 
 
@@ -1415,8 +1146,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
  []
 
 
-Overfull \hbox (9.22734pt too wide) in paragraph at lines 28--29
-[]\T1/fca/m/n/10.95 Seguì poi la crea-zio-ne del sub-planet Just-
+Overfull \hbox (2.10776pt too wide) in paragraph at lines 28--29
+[]\T1/cmr/m/n/10.95 Seguì poi la crea-zio-ne del sub-planet Just-
  []
 
 
@@ -1429,7 +1160,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--59
 
  []
 
-[10
+[11
 
 
 
@@ -1453,16 +1184,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
  []
 
 
-Overfull \hbox (3.161pt too wide) in paragraph at lines 18--19
-\T1/fca/m/n/10.95 mi-ni di lay-out, la ri-vi-si-ta-zio-ne avreb-be do-
- []
-
-
-Overfull \hbox (4.1465pt too wide) in paragraph at lines 18--19
-\T1/fca/m/n/10.95 vu-to ri-guar-da-re la to-ta-li-tà del si-to: si trat-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
@@ -1493,7 +1214,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
  []
 
 
-<articoli/editoriale/immagini/server_git.jpg, id=78, 1032.42857pt x 1377.25972p
+<articoli/editoriale/immagini/server_git.jpg, id=99, 1032.42857pt x 1377.25972p
 t>
 File: articoli/editoriale/immagini/server_git.jpg Graphic file (type jpg)
  <use articoli/editoriale/immagini/server_git.jpg>
@@ -1501,24 +1222,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-[11
+[12
 
 
 
 
 ]
-Overfull \hbox (10.5194pt too wide) in paragraph at lines 38--39
-\T1/fca/m/n/10.95 sem-bra-to in-sor-mon-ta-bi-le, ini-zial-men-te, era
+Overfull \hbox (6.1857pt too wide) in paragraph at lines 38--39
+\T1/cmr/m/n/10.95 sem-bra-to in-sor-mon-ta-bi-le, ini-zial-men-te, era
  []
 
 
-Overfull \hbox (10.59613pt too wide) in paragraph at lines 38--39
-\T1/fca/m/n/10.95 da-to dal lo-gin uni-fi-ca-to tra Dru-pal e Fluxbb
+Overfull \hbox (10.60272pt too wide) in paragraph at lines 38--39
+\T1/cmr/m/n/10.95 da-to dal lo-gin uni-fi-ca-to tra Dru-pal e Fluxbb
  []
 
 
-Overfull \hbox (6.25983pt too wide) in paragraph at lines 38--39
-\T1/fca/m/n/10.95 Me-dia-wi-ki, vi-sto che so-lo i re-dat-to-ri iscrit-
+Overfull \hbox (2.62767pt too wide) in paragraph at lines 38--39
+\T1/cmr/m/n/10.95 Me-dia-wi-ki, vi-sto che so-lo i re-dat-to-ri iscrit-
  []
 
 
@@ -1532,11 +1253,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
  []
 
 
-Overfull \hbox (4.5517pt too wide) in paragraph at lines 42--43
-\T1/fca/m/n/10.95 uni-for-man-do-la nei di-ver-si pro-gram-mi coa-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
@@ -1547,18 +1263,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
  []
 
 
-Overfull \hbox (0.35788pt too wide) in paragraph at lines 46--47
-[]\T1/fca/m/n/10.95 Se con-tia-mo il fat-to che al-cu-ni uten-ti, so-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
- []
-
-
-Overfull \hbox (0.52214pt too wide) in paragraph at lines 48--49
-[]\T1/fca/m/n/10.95 Riassumendo, era-va-mo bloc-ca-ti sul-la so-
  []
 
 
@@ -1581,19 +1287,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-[12 <./articoli/editoriale/immagini/server_git.jpg>]
-Overfull \hbox (11.74586pt too wide) in paragraph at lines 56--57
-\T1/fca/m/n/10.95 te do-cu-men-ta-le sa-reb-be sta-to me-glio crea-
- []
-
-
+[13 <./articoli/editoriale/immagini/server_git.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
- []
-
-
-Overfull \hbox (6.44604pt too wide) in paragraph at lines 58--59
-\T1/fca/m/n/10.95 ope-ra-zio-ne te-dio-sa ma re-la-ti-va-men-te bre-
  []
 
 
@@ -1612,6 +1308,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
  []
 
 
+Overfull \hbox (2.64426pt too wide) in paragraph at lines 64--65
+[]\T1/cmr/m/n/10.95 Dovevo co-min-cia-re dac-ca-po, leg-ge-re e stu-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
@@ -1622,21 +1323,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
  []
 
 
-<articoli/editoriale/immagini/forum_fol.jpeg, id=85, 932.87296pt x 525.46312pt>
+<articoli/editoriale/immagini/forum_fol.jpeg, id=106, 932.87296pt x 525.46312pt
+>
 File: articoli/editoriale/immagini/forum_fol.jpeg Graphic file (type jpg)
-<use articoli/editoriale/immagini/forum_fol.jpeg>
-Overfull \hbox (9.53389pt too wide) in paragraph at lines 74--75
-\T1/fca/m/n/10.95 si di aver mes-so a di-spo-si-zio-ne del-gli uten-
- []
-
-
+ <use articoli/editoriale/immagini/forum_fol.jpeg>
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
- []
-
-
-Overfull \hbox (1.4193pt too wide) in paragraph at lines 76--78
-[]\T1/fca/m/n/10.95 E Vi-rus? Ra-gaz-zi! Sen-za Vi-rus che ha ret-
  []
 
 
@@ -1644,7 +1336,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--78
 
  []
 
-) [13 <./articoli/editoriale/immagini/forum_fol.jpeg>]
+) [14 <./articoli/editoriale/immagini/forum_fol.jpeg>]
 \openout2 = `articoli/primi_passi/terminale.aux'.
 
 
@@ -1665,13 +1357,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
  []
 
 
-Overfull \hbox (4.38745pt too wide) in paragraph at lines 26--27
-\T1/fca/m/n/10.95 che han-no si-gni-fi-ca-ti dif-fe-ren-ti sep-pur mi-
- []
-
-
-Overfull \hbox (4.1686pt too wide) in paragraph at lines 29--31
-\T1/fca/m/n/10.95 qua-le si co-mu-ni-ca con il si-ste-ma (ta-
+Overfull \hbox (1.86795pt too wide) in paragraph at lines 29--31
+\T1/cmr/m/n/10.95 qua-le si co-mu-ni-ca con il si-ste-ma (ta-
  []
 
 
@@ -1680,38 +1367,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
  []
 
 
-Overfull \hbox (3.9713pt too wide) in paragraph at lines 41--42
-[]\T1/fca/m/n/10.95 Esistono va-rie ti-po-lo-gie di shell, tut-te con
- []
-
-
-Overfull \hbox (4.78165pt too wide) in paragraph at lines 41--42
-\T1/fca/m/n/10.95 han-no del-le di-fe-ren-ze so-stan-zia-li ap-prez-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-[14
+[15
 
 
 
 
 ]
-<articoli/primi_passi/immagini/gnome_terminal.jpeg, id=92, 619.45714pt x 391.46
-25pt>
+<articoli/primi_passi/immagini/gnome_terminal.jpeg, id=113, 619.45714pt x 391.4
+625pt>
 File: articoli/primi_passi/immagini/gnome_terminal.jpeg Graphic file (type jpg)
 
  <use articoli/primi_passi/immagini/gnome_terminal.jpeg>
-Underfull \hbox (badness 2744) in paragraph at lines 51--51
-[]\T1/fca/m/n/10.95 Figura 7: emu-la-to-re di ter-mi-na-le in
+Underfull \hbox (badness 1931) in paragraph at lines 51--51
+[]\T1/cmr/m/n/10.95 Figura 7: emu-la-to-re di ter-mi-na-le in
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
+ []
+
+
+Overfull \hbox (4.84822pt too wide) in paragraph at lines 60--61
+\T1/cmr/m/n/10.95 bre-ve tem-po avrà mo-do di ap-prez-za-re que-
  []
 
 
@@ -1725,9 +1407,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
  []
 
 
-<articoli/primi_passi/immagini/cpu_info.jpeg, id=93, 631.25633pt x 363.60844pt>
+<articoli/primi_passi/immagini/cpu_info.jpeg, id=114, 631.25633pt x 363.60844pt
+>
 File: articoli/primi_passi/immagini/cpu_info.jpeg Graphic file (type jpg)
-<use articoli/primi_passi/immagini/cpu_info.jpeg>
+ <use articoli/primi_passi/immagini/cpu_info.jpeg>
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
@@ -1753,18 +1436,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--88
  []
 
 
+Overfull \hbox (3.46637pt too wide) in paragraph at lines 89--90
+[]\T1/cmr/m/n/10.95 Non esi-ste un equi-li-brio og-get-ti-vo per que-
+ []
+
+
+Overfull \hbox (0.70395pt too wide) in paragraph at lines 89--90
+\T1/cmr/m/n/10.95 sti fat-to-ri, il tut-to è ri-con-du-ci-bi-le al-le pro-
+ []
+
+
+Overfull \hbox (1.65976pt too wide) in paragraph at lines 89--90
+\T1/cmr/m/n/10.95 prie ca-rat-te-ri-sti-che per-so-na-li; di cer-to non
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-[15 <./articoli/primi_passi/immagini/gnome_terminal.jpeg>]
-Overfull \hbox (1.66092pt too wide) in paragraph at lines 91--92
-\T1/fca/m/n/10.95 ma, so-prat-tut-to, en-tria-mo in sin-to-nia con
+[16 <./articoli/primi_passi/immagini/gnome_terminal.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
-
+Overfull \hbox (1.72017pt too wide) in paragraph at lines 93--94
+\T1/cmr/m/n/10.95 so-stie-ne che con il ter-mi-na-le si la-vo-ra mol-
  []
 
 
@@ -1773,33 +1471,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--94
  []
 
 
-Overfull \hbox (4.37653pt too wide) in paragraph at lines 95--96
-[]\T1/fca/m/n/10.95 Aprendo la shell la ri-ga che com-pa-re (\T1/fca/m/sl/10.95
- [ga-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
 
-<articoli/primi_passi/immagini/man_man.jpeg, id=98, 496.30316pt x 327.47343pt>
+<articoli/primi_passi/immagini/man_man.jpeg, id=119, 496.30316pt x 327.47343pt>
 File: articoli/primi_passi/immagini/man_man.jpeg Graphic file (type jpg)
-
 <use articoli/primi_passi/immagini/man_man.jpeg>
 Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
-[16 <./articoli/primi_passi/immagini/cpu_info.jpeg>]
+[17 <./articoli/primi_passi/immagini/cpu_info.jpeg>]
 Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
- []
-
-
-Overfull \hbox (2.25217pt too wide) in paragraph at lines 112--113
-[]\T1/fca/m/n/10.95 Ovviamente il con-si-glio è quel-lo di ci-men-
  []
 
 
@@ -1808,28 +1494,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
  []
 
 
-Overfull \hbox (4.15742pt too wide) in paragraph at lines 114--116
-\T1/fca/m/n/10.95 ti-liz-zo dei ta-sti ``frec-cia su'' e ``frec-cia giù''. 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
-[17 <./articoli/primi_passi/immagini/man_man.jpeg>]
+[18 <./articoli/primi_passi/immagini/man_man.jpeg>]
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
 
-Overfull \hbox (4.56267pt too wide) in paragraph at lines 131--132
-[]\T1/fca/m/n/10.95 Autenticandoci co-me uten-ti, ab-bia-mo del-
+Overfull \hbox (3.33409pt too wide) in paragraph at lines 131--132
+[]\T1/cmr/m/n/10.95 Autenticandoci co-me uten-ti, ab-bia-mo del-
  []
 
 
-Overfull \hbox (0.33595pt too wide) in paragraph at lines 131--132
-\T1/fca/m/n/10.95 le re-stri-zio-ni per quan-to con-cer-ne la mo-
+Overfull \hbox (7.39076pt too wide) in paragraph at lines 131--132
+\T1/cmr/m/n/10.95 ac-ci-den-tal-men-te o me-no, pos-sa ve-ni-re com-
  []
 
 
@@ -1842,17 +1523,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
-<articoli/primi_passi/immagini/root.jpeg, id=107, 496.30316pt x 328.22626pt>
+<articoli/primi_passi/immagini/root.jpeg, id=126, 496.30316pt x 328.22626pt>
 File: articoli/primi_passi/immagini/root.jpeg Graphic file (type jpg)
 
 <use articoli/primi_passi/immagini/root.jpeg>
-Overfull \hbox (2.15367pt too wide) in paragraph at lines 149--150
-[]\T1/fca/m/n/10.95 Eccoci au-ten-ti-ca-ti co-me root nel-l'am-bien-
- []
-
-
-Overfull \hbox (2.17555pt too wide) in paragraph at lines 149--150
-\T1/fca/m/n/10.95 por-ta-zio-ne del-l'am-bien-te di root sa-rà og-
+Overfull \hbox (1.07266pt too wide) in paragraph at lines 149--150
+[]\T1/cmr/m/n/10.95 Eccoci au-ten-ti-ca-ti co-me root nel-l'am-bien-
  []
 
 
@@ -1860,7 +1536,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
-) [18 <./articoli/primi_passi/immagini/root.jpeg>]
+) [19 <./articoli/primi_passi/immagini/root.jpeg>]
 \openout2 = `articoli/sistema_base/servizi.aux'.
 
 
@@ -1871,19 +1547,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
 
 Package color Info: Redefining color shadecolor on input line 13.
 
-Overfull \hbox (6.31467pt too wide) in paragraph at lines 15--16
-\T1/fca/m/n/10.95 cen-te-men-te ha co-min-cia-to a so-sti-tui-re \T1/fca/m/sl/1
-0.95 Sy-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
 
-Overfull \hbox (0.85062pt too wide) in paragraph at lines 17--18
-\T1/fca/m/sl/10.95 wi-ki/Features/systemd/it \T1/fca/m/n/10.95 do-ve so-no ben
+Overfull \hbox (17.21547pt too wide) in paragraph at lines 17--18
+\T1/cmr/m/n/10.95 ra-to la pa-gi-na wi-ki \T1/cmr/m/it/10.95 https://fedoraproj
+ect.org/
  []
 
 
@@ -1892,23 +1563,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
  []
 
 
-<articoli/sistema_base/immagini/home_systemd.jpeg, id=111, 932.87296pt x 526.21
+<articoli/sistema_base/immagini/home_systemd.jpeg, id=130, 932.87296pt x 526.21
 594pt>
 File: articoli/sistema_base/immagini/home_systemd.jpeg Graphic file (type jpg)
  <use articoli/sistema_base/immagini/home_systemd.jpeg>
 Overfull \hbox (1.53528pt too wide) in paragraph at lines 21--22
  [][] 
- []
-
-
-Overfull \hbox (0.79585pt too wide) in paragraph at lines 25--26
-\T1/fca/m/n/10.95 dove tro-via-mo det-ta-glia-ta-men-te de-scrit-
- []
-
-
-Overfull \hbox (4.26703pt too wide) in paragraph at lines 25--26
-\T1/fca/m/n/10.95 no-tia-mo che \T1/fca/m/sl/10.95 sy-ste-md \T1/fca/m/n/10.95 
-ve-lo-ciz-za l'av-vio at-
  []
 
 
@@ -1922,16 +1582,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
  []
 
 
-Overfull \hbox (3.57716pt too wide) in paragraph at lines 29--30
-[]\T1/fca/m/n/10.95 Inoltre es-so si ap-pog-gia a D-Bus per l'av-
- []
-
-
-Overfull \hbox (7.0702pt too wide) in paragraph at lines 29--30
-\T1/fca/m/n/10.95 es-se-re uti-liz-za-to co-me con-fi-gu-ra-zio-ne ex-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
@@ -1942,21 +1592,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
  []
 
 
-Overfull \hbox (4.77069pt too wide) in paragraph at lines 33--34
-[]\T1/fca/m/n/10.95 Quali so-no i van-tag-gi li ab-bia-mo vi-sti, sep-
- []
-
-
-Overfull \hbox (5.30727pt too wide) in paragraph at lines 33--34
-\T1/fca/m/n/10.95 pur som-ma-ria-men-te (per ap-pro-fon-di-men-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-[19
+[20
 
 
 
@@ -1967,32 +1607,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
  []
 
 
-<articoli/sistema_base/immagini/man_systemctl.jpeg, id=115, 496.30316pt x 329.7
+<articoli/sistema_base/immagini/man_systemctl.jpeg, id=134, 496.30316pt x 329.7
 3187pt>
 File: articoli/sistema_base/immagini/man_systemctl.jpeg Graphic file (type jpg)
 
  <use articoli/sistema_base/immagini/man_systemctl.jpeg>
-Overfull \hbox (0.4017pt too wide) in paragraph at lines 59--60
-\T1/fca/m/n/10.95 ce'', con il qua-le man-tie-ne una cer-ta com-
+Overfull \hbox (1.19931pt too wide) in paragraph at lines 69--70
+[]\T1/cmr/m/n/10.95 informazioni ap-pro-fon-di-te sul-lo sta-
  []
 
-
-Overfull \hbox (6.97176pt too wide) in paragraph at lines 69--70
-[]\T1/fca/m/n/10.95 informazioni ap-pro-fon-di-te sul-lo sta-
- []
-
-[20 <./articoli/sistema_base/immagini/home_systemd.jpeg>]
-Overfull \hbox (4.19035pt too wide) in paragraph at lines 105--106
-[]\T1/fca/m/n/10.95 Il con-te-nu-to del-la di-rec-to-ry \T1/fca/m/sl/10.95 /etc
-/systemd
- []
-
-
+[21 <./articoli/sistema_base/immagini/home_systemd.jpeg>]
 Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
-[21 <./articoli/sistema_base/immagini/man_systemctl.jpeg>]
+[22 <./articoli/sistema_base/immagini/man_systemctl.jpeg>]
 Underfull \hbox (badness 10000) in paragraph at lines 109--113
 
  []
@@ -2004,22 +1633,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--118
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 119--124
-[]\T1/fca/m/n/10.95 ExecStartPre=/usr/libexec/mysqld-
+[]\T1/cmr/m/n/10.95 ExecStartPre=/usr/libexec/mysqld-
  []
 
 
-Underfull \hbox (badness 6775) in paragraph at lines 119--124
-\T1/fca/m/n/10.95 pro-bes that might trig-ger SE-Li-nux
+Underfull \hbox (badness 1253) in paragraph at lines 119--124
+\T1/cmr/m/n/10.95 # No-te: we set --basedir to pre-vent
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 119--124
+\T1/cmr/m/n/10.95 pro-bes that might trig-ger SE-Li-nux
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 119--124
-\T1/fca/m/n/10.95 ExecStart=/usr/bin/mysqld_safe --
+\T1/cmr/m/n/10.95 ExecStart=/usr/bin/mysqld_safe --
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 119--124
-\T1/fca/m/n/10.95 ExecStartPost=/usr/libexec/mysqld-
+\T1/cmr/m/n/10.95 ExecStartPost=/usr/libexec/mysqld-
  []
 
 
@@ -2030,11 +1664,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--124
 
 Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
- []
-
-
-Underfull \hbox (badness 5077) in paragraph at lines 128--135
-[]\T1/fca/m/n/10.95 # We re-ly on sy-ste-md, not my-
  []
 
 
@@ -2053,16 +1682,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--147
  []
 
 
-Overfull \hbox (2.3726pt too wide) in paragraph at lines 148--149
-[]\T1/fca/m/n/10.95 Systemd ver-rà pro-ba-bil-men-te ri-pre-so nei
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
-) [22]
+) [23]
 \openout2 = `articoli/sistema_base/dracut.aux'.
 
  (./articoli/sistema_base/dracut.tex
@@ -2072,13 +1696,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
 
 Package color Info: Redefining color shadecolor on input line 13.
 
-Overfull \hbox (4.13368pt too wide) in paragraph at lines 15--16
-$[]$[]\T1/fca/m/n/10.95 ome sap-pia-mo ini-trd e ini-tramfs (per
- []
-
-
-Overfull \hbox (2.05511pt too wide) in paragraph at lines 15--16
-\T1/fca/m/n/10.95 ver-sio-ne at-tua-le del pre-ce-den-te) non so-
+Overfull \hbox (4.57938pt too wide) in paragraph at lines 15--16
+$[]$[]\T1/cmr/m/n/10.95 ome sap-pia-mo ini-trd e ini-tramfs (per
  []
 
 
@@ -2087,18 +1706,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
  []
 
 
-Overfull \hbox (1.56238pt too wide) in paragraph at lines 17--18
-\T1/fca/m/n/10.95 so ne-ces-sa-rio tro-va-re so-lu-zio-ni che man-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
- []
-
-
-Overfull \hbox (0.79588pt too wide) in paragraph at lines 19--20
-\T1/fca/m/n/10.95 spa-ce che si oc-cu-pa di ri-le-va-re hard-ware,
  []
 
 
@@ -2107,18 +1716,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
  []
 
 
-Overfull \hbox (4.46425pt too wide) in paragraph at lines 23--24
-[]\T1/fca/m/n/10.95 lancio e ca-ri-ca-men-to ker-nel con tut-
+Overfull \hbox (0.17169pt too wide) in paragraph at lines 23--24
+[]\T1/cmr/m/n/10.95 lancio e ca-ri-ca-men-to ker-nel con tut-
  []
 
 
-Overfull \hbox (6.33667pt too wide) in paragraph at lines 23--24
-\T1/fca/m/n/10.95 bi-li al cor-ret-to fun-zio-na-men-to di una
- []
-
-
-Overfull \hbox (1.40918pt too wide) in paragraph at lines 24--25
-\T1/fca/m/n/10.95 o per-for-man-ce che l'u-ten-te (esper-
+Overfull \hbox (69.34126pt too wide) in paragraph at lines 24--25
+\T1/cmr/m/n/10.95 ri-men-to di re-go-le spe-ci-fi-che in \T1/cmr/m/it/10.95 /et
+c/dracut.conf.d/\T1/cmr/m/n/10.95 . 
  []
 
 
@@ -2131,14 +1736,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-[23
+[24
 
 
 
 
 ]
-Underfull \hbox (badness 6032) in paragraph at lines 33--34
-[]\T1/fca/m/n/10.95 # dra-cut /boot/initramfs-$(uname -
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]\T1/cmr/m/n/10.95 # dra-cut /boot/initramfs-$(uname
  []
 
 
@@ -2152,19 +1757,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
  []
 
 
-Overfull \hbox (2.5807pt too wide) in paragraph at lines 38--39
-[]\T1/fca/m/n/10.95 Come sem-pre in que-sti ca-si oc-cor-re sem-
- []
-
-
-Overfull \hbox (0.45645pt too wide) in paragraph at lines 44--45
-\T1/fca/m/n/10.95 con-fi-gu-ra-zio-ne (com-pre-so quel-lo di dea-
- []
-
-
-Overfull \hbox (5.82193pt too wide) in paragraph at lines 44--45
-\T1/fca/m/n/10.95 fult di dra-cut che è \T1/fca/m/sl/10.95 /etc/dracut.conf\T1/
-fca/m/n/10.95 ), par-
+Overfull \hbox (7.70056pt too wide) in paragraph at lines 44--45
+\T1/cmr/m/n/10.95 ma-gi-ne ra-m-di-sk ini-zia-le in-te-gran-do o esclu-
  []
 
 
@@ -2173,82 +1767,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
  []
 
 
-Overfull \hbox (1.59517pt too wide) in paragraph at lines 46--48
-\T1/fca/m/n/10.95 po-sto al-l'in-ter-no del-la di-rec-to-ry \T1/fca/m/sl/10.95 
-/var/log\T1/fca/m/n/10.95 ,
- []
-
-
-Overfull \hbox (1.2229pt too wide) in paragraph at lines 60--61
-\T1/fca/m/n/10.95 ten-ti per-chè uti-liz-za-te an-che nel grub.cfg
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
 
-Underfull \hbox (badness 4108) in paragraph at lines 66--67
-[]\T1/fca/m/n/10.95 # lsi-ni-trd /boot/initramfs-$(uname -
+Underfull \hbox (badness 1845) in paragraph at lines 66--67
+[]\T1/cmr/m/n/10.95 # lsi-ni-trd /boot/initramfs-$(uname -
  []
 
 
-Underfull \hbox (badness 4108) in paragraph at lines 72--73
-[]\T1/fca/m/n/10.95 # lsi-ni-trd /boot/initramfs-$(uname -
+Underfull \hbox (badness 1845) in paragraph at lines 72--73
+[]\T1/cmr/m/n/10.95 # lsi-ni-trd /boot/initramfs-$(uname -
  []
 
 
-Overfull \hbox (2.92014pt too wide) in paragraph at lines 75--76
-\T1/fca/m/n/10.95 ter-no del-la di-rec-to-ry \T1/fca/m/sl/10.95 /etc/dracut.con
-f.d/\T1/fca/m/n/10.95 ,
+Overfull \hbox (12.25688pt too wide) in paragraph at lines 75--76
+\T1/cmr/m/n/10.95 no del-la di-rec-to-ry \T1/cmr/m/it/10.95 /etc/dracut.conf.d/
+\T1/cmr/m/n/10.95 , men-
  []
 
-[24]
+
+Overfull \hbox (3.08405pt too wide) in paragraph at lines 75--76
+\T1/cmr/m/n/10.95 esi-gen-ze, com-men-tan-do-ne e/o de-com-men-
+ []
+
+
+Overfull \hbox (0.63217pt too wide) in paragraph at lines 75--76
+\T1/cmr/m/n/10.95 tan-do-ne le op-zio-ni per me-glio ri-fi-ni-re l'av-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
-
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 
-Overfull \hbox (8.49364pt too wide) in paragraph at lines 85--86
-\T1/fca/m/n/10.95 pos-so-no in-se-ri-re al-l'in-ter-no del-la ini-tramfs
+Overfull \hbox (2.68738pt too wide) in paragraph at lines 85--86
+\T1/cmr/m/n/10.95 pos-so-no in-se-ri-re al-l'in-ter-no del-la ini-tramfs
  []
 
 
-Overfull \hbox (3.15002pt too wide) in paragraph at lines 85--86
-\T1/fca/m/n/10.95 i pro-pri fi-le di uti-li-tà par-ti-co-la-re, ad esem-
+Overfull \hbox (1.00243pt too wide) in paragraph at lines 85--86
+\T1/cmr/m/n/10.95 i pro-pri fi-le di uti-li-tà par-ti-co-la-re, ad esem-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
-[]\T1/fca/m/n/10.95 # dra-cut --include /bin/cat /
+[]\T1/cmr/m/n/10.95 # dra-cut --include /bin/cat
  []
 
 
-Overfull \hbox (13.49779pt too wide) in paragraph at lines 90--91
-\T1/fca/m/n/10.95 ter-no del-la di-rec-to-ry \T1/fca/m/sl/10.95 run/initramfs/u
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+\T1/cmr/m/n/10.95 / run/initramfs/usr/sbin
+ []
+
+
+Overfull \hbox (14.57469pt too wide) in paragraph at lines 90--91
+\T1/cmr/m/n/10.95 ter-no del-la di-rec-to-ry \T1/cmr/m/it/10.95 run/initramfs/u
 sr/sbin
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
- []
-
-
-Overfull \hbox (2.61354pt too wide) in paragraph at lines 92--93
-[]\T1/fca/m/n/10.95 L'opzione \T1/fca/m/sl/10.95 --install \T1/fca/m/n/10.95 co
-n-sen-te di po-ter spe-
- []
-
-
-Overfull \hbox (1.70473pt too wide) in paragraph at lines 98--99
-[]\T1/fca/m/n/10.95 Vale la pe-na, an-che, di ri-cor-da-re che Dra-
  []
 
 
@@ -2262,19 +1849,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
  []
 
 
-Overfull \hbox (5.98624pt too wide) in paragraph at lines 105--106
-[]\T1/fca/m/sl/10.95 rdshell\T1/fca/m/n/10.95 : co-me det-to, in-se-ren-do que-
-
- []
-
-
-Overfull \hbox (3.94966pt too wide) in paragraph at lines 105--106
-\T1/fca/m/n/10.95 sto co-man-do si avrà ac-ces-so ad una
- []
-
-
-Overfull \hbox (0.3689pt too wide) in paragraph at lines 107--108
-\T1/fca/m/n/10.95 me-rà pri-ma di su-pe-ra-re il pun-to da-
+Overfull \hbox (16.62302pt too wide) in paragraph at lines 107--108
+[]\T1/cmr/m/it/10.95 rdbreak=[pre-udev | pre-mount | mount
  []
 
 )
@@ -2282,7 +1858,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--67
 
  []
 
-[25]
+[26]
 \openout2 = `articoli/sistema_avanzato/creare_rpm.aux'.
 
  (./articoli/sistema_avanzato/creare_rpm.tex
@@ -2297,21 +1873,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
  []
 
 
-Overfull \hbox (1.04771pt too wide) in paragraph at lines 17--18
-\T1/fca/m/n/10.95 que-sto for-ma-to ri-scos-se fin dal-l'i-ni-zio un
- []
-
-
-Overfull \hbox (4.74883pt too wide) in paragraph at lines 17--18
-\T1/fca/m/n/10.95 gran-de suc-ces-so (al pa-ri del for-ma-to .deb
- []
-
-
-Overfull \hbox (4.15746pt too wide) in paragraph at lines 17--18
-\T1/fca/m/n/10.95 ini-zial-men-te de-ri-va-te da Red Hat) per l'in-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
@@ -2322,36 +1883,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
  []
 
 
-Overfull \hbox (8.54843pt too wide) in paragraph at lines 21--22
-[]\T1/fca/m/n/10.95 Malgrado vi sia-no di-ver-si tools (co-me alien
+Overfull \hbox (5.03798pt too wide) in paragraph at lines 21--22
+[]\T1/cmr/m/n/10.95 Malgrado vi sia-no di-ver-si tools (co-me alien
  []
 
 
-Overfull \hbox (1.57335pt too wide) in paragraph at lines 21--22
-\T1/fca/m/n/10.95 o chec-kin-stall, an-che se que-st'ul-ti-mo non
- []
-
-
-Overfull \hbox (3.66476pt too wide) in paragraph at lines 21--22
-\T1/fca/m/n/10.95 per-met-to-no la crea-zio-ne di \T1/fca/m/sl/10.95 rpm\T1/fca
-/m/n/10.95 , con que-
- []
-
-
-Overfull \hbox (1.27766pt too wide) in paragraph at lines 21--22
-\T1/fca/m/n/10.95 co-me spe-ci-fi-ca-to al-l'in-di-riz-zo \T1/fca/m/sl/10.95 ht
-tp://fedo 
- []
-
-
-Overfull \hbox (5.3839pt too wide) in paragraph at lines 21--22
-\T1/fca/m/sl/10.95 raproject.org/wiki/ Pac-ka-ging:Guidelines\T1/fca/m/n/10.95 
+Overfull \hbox (3.7453pt too wide) in paragraph at lines 21--22
+\T1/cmr/m/it/10.95 raproject.org/wiki/ Pac-ka-ging:Guidelines\T1/cmr/m/n/10.95 
 ,
  []
 
 
-Overfull \hbox (8.75648pt too wide) in paragraph at lines 21--22
-\T1/fca/m/n/10.95 chet-ti me-dian-te l'u-ti-liz-zo del co-man-do rpm
+Overfull \hbox (0.68123pt too wide) in paragraph at lines 21--22
+\T1/cmr/m/n/10.95 ne, ma-nu-ten-zio-ne e ispe-zio-ne dei pac-chet-
  []
 
 
@@ -2360,33 +1904,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
  []
 
 
-Overfull \hbox (0.79588pt too wide) in paragraph at lines 23--24
-\T1/fca/m/n/10.95 mo-do par-ti-co-la-re qua-lo-ra si vo-les-se con-
- []
-
-
-Overfull \hbox (2.40552pt too wide) in paragraph at lines 39--40
-\T1/fca/m/n/10.95 pen-den-za an-che l'u-ti-li-ty \T1/fca/m/sl/10.95 rp-m-de-v-t
-ools \T1/fca/m/n/10.95 che
- []
-
-
-Overfull \hbox (0.62067pt too wide) in paragraph at lines 39--40
-\T1/fca/m/n/10.95 ci con-sen-te di uti-liz-za-re il co-man-do adat-
- []
-
-
-Overfull \hbox (0.4783pt too wide) in paragraph at lines 45--46
-\T1/fca/m/n/10.95 trol-la-re che nel-la ho-me del-l'u-ten-te in uso
- []
-
-
-Overfull \hbox (1.27766pt too wide) in paragraph at lines 45--46
-\T1/fca/m/n/10.95 sua vol-ta con-tie-ne al-tre di-rec-to-ry (al mo-
- []
-
-
-<articoli/sistema_avanzato/immagini/rpmbuild_tree.jpeg, id=135, 444.91219pt x 3
+<articoli/sistema_avanzato/immagini/rpmbuild_tree.jpeg, id=154, 444.91219pt x 3
 28.22626pt>
 File: articoli/sistema_avanzato/immagini/rpmbuild_tree.jpeg Graphic file (type 
 jpg)
@@ -2395,54 +1913,34 @@ Overfull \hbox (4.41049pt too wide) in paragraph at lines 49--50
  [][] 
  []
 
-[26
+[27
 
 
 
 
 ]
-Overfull \hbox (4.32188pt too wide) in paragraph at lines 56--57
-\T1/fca/m/n/10.95 scom-pat-ta-ti ed il pac-chet-to co-strui-
+Overfull \hbox (3.93298pt too wide) in paragraph at lines 66--67
+\T1/cmr/m/it/10.95 ct.org/wiki/Packaging/Guidelines# 
  []
 
-
-Overfull \hbox (2.13176pt too wide) in paragraph at lines 61--62
-\T1/fca/m/n/10.95 min-cia-re il no-stro la-vo-ro di pac-ka-ging ma,
- []
-
-
-Overfull \hbox (1.05879pt too wide) in paragraph at lines 66--67
-\T1/fca/m/sl/10.95 ct.org/wiki/Packaging/Guidelines# 
- []
-
-[27 <./articoli/sistema_avanzato/immagini/rpmbuild_tree.jpeg>]
-Overfull \hbox (6.53365pt too wide) in paragraph at lines 70--71
-[]\T1/fca/m/n/10.95 Oltre a quan-to so-pra, oc-cor-re te-ne-re pre-
- []
-
-
+[28 <./articoli/sistema_avanzato/immagini/rpmbuild_tree.jpeg>]
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 
-Overfull \hbox (2.76695pt too wide) in paragraph at lines 73--74
-[]\T1/fca/m/n/10.95 tutto il soft-ware pre-sen-te de-ve es-
+Overfull \hbox (4.01317pt too wide) in paragraph at lines 76--77
+[]\T1/cmr/m/n/10.95 seguire le di-ret-ti-ve di lay-out del FHS
  []
 
 
-Overfull \hbox (6.99356pt too wide) in paragraph at lines 76--77
-[]\T1/fca/m/n/10.95 seguire le di-ret-ti-ve di lay-out del FHS
+Overfull \hbox (6.48009pt too wide) in paragraph at lines 76--77
+\T1/cmr/m/n/10.95 (Fi-le-sy-stem Hie-rar-chy Stan-dard) che
  []
 
 
-Overfull \hbox (9.1946pt too wide) in paragraph at lines 76--77
-\T1/fca/m/n/10.95 (Fi-le-sy-stem Hie-rar-chy Stan-dard) che
- []
-
-
-Overfull \hbox (5.49347pt too wide) in paragraph at lines 80--81
-[]\T1/fca/m/n/10.95 Come già det-to Il Fe-do-ra Pac-ka-ging Com-
+Overfull \hbox (1.21176pt too wide) in paragraph at lines 80--81
+[]\T1/cmr/m/n/10.95 Come già det-to Il Fe-do-ra Pac-ka-ging Com-
  []
 
 
@@ -2451,7 +1949,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
  []
 
 
-<articoli/sistema_avanzato/immagini/rpm_wiki.jpeg, id=142, 943.9347pt x 602.25p
+<articoli/sistema_avanzato/immagini/rpm_wiki.jpeg, id=162, 943.9347pt x 602.25p
 t>
 File: articoli/sistema_avanzato/immagini/rpm_wiki.jpeg Graphic file (type jpg)
  <use articoli/sistema_avanzato/immagini/rpm_wiki.jpeg>
@@ -2465,32 +1963,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
  []
 
 
-Overfull \hbox (8.47182pt too wide) in paragraph at lines 90--91
-[]\T1/fca/m/n/10.95 Il pas-so suc-ces-si-vo che ve-dre-mo nel pros-
- []
-
-
-Overfull \hbox (3.46765pt too wide) in paragraph at lines 90--91
-\T1/fca/m/n/10.95 con-te-nen-te le in-for-ma-zio-ni ne-ces-sa-rie al-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-) [28 <./articoli/sistema_avanzato/immagini/rpm_wiki.jpeg>]
+) [29 <./articoli/sistema_avanzato/immagini/rpm_wiki.jpeg>]
 \openout2 = `articoli/sistema_avanzato/ricompilazione_kernel.aux'.
 
 
 (./articoli/sistema_avanzato/ricompilazione_kernel.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--12
 
- []
-
-
-Overfull \hbox (4.08087pt too wide) in paragraph at lines 14--16
-\T1/fca/m/sl/10.95 ste-ma ope-ra-ti-vo (gra-tui-to e so-lo per hob-
  []
 
 
@@ -2504,7 +1987,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
  []
 
 
-<articoli/sistema_avanzato/immagini/torvalds.jpeg, id=147, 200.75pt x 308.15125
+<articoli/sistema_avanzato/immagini/torvalds.jpeg, id=166, 200.75pt x 308.15125
 pt>
 File: articoli/sistema_avanzato/immagini/torvalds.jpeg Graphic file (type jpg)
  <use articoli/sistema_avanzato/immagini/torvalds.jpeg>
@@ -2513,8 +1996,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 
-Overfull \hbox (15.0308pt too wide) in paragraph at lines 27--29
-\T1/fca/m/n/10.95 Gestisce la me-mo-ria, la cpu, l'In-put/Output,
+Overfull \hbox (15.93639pt too wide) in paragraph at lines 27--29
+\T1/cmr/m/n/10.95 Gestisce la me-mo-ria, la cpu, l'In-put/Output,
  []
 
 
@@ -2527,7 +2010,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-<articoli/sistema_avanzato/immagini/tux.jpg, id=148, 325.215pt x 244.2726pt>
+<articoli/sistema_avanzato/immagini/tux.jpg, id=167, 325.215pt x 244.2726pt>
 File: articoli/sistema_avanzato/immagini/tux.jpg Graphic file (type jpg)
 
 <use articoli/sistema_avanzato/immagini/tux.jpg>
@@ -2540,18 +2023,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-[29
+[30
 
 
 
 
  <./articoli/sistema_avanzato/immagini/torvalds.jpeg> <./articoli/sistema_avanz
 ato/immagini/tux.jpg>]
-Overfull \hbox (0.40172pt too wide) in paragraph at lines 43--44
-[]\T1/fca/m/n/10.95 Questo ap-proc-cio è chia-ma-to ker-nel mo-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
@@ -2567,33 +2045,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
  []
 
 
-Overfull \hbox (3.52238pt too wide) in paragraph at lines 49--50
-[]\T1/fca/m/n/10.95 Spieghiamo bre-ve-men-te il si-gni-fi-ca-to del-
+Overfull \hbox (4.30319pt too wide) in paragraph at lines 60--61
+[]\T1/cmr/m/n/10.95 i686 --- in-di-ca l'ar-chi-tet-tu-ra del
  []
 
 
-Overfull \hbox (10.42102pt too wide) in paragraph at lines 53--54
-[]\T1/fca/m/n/10.95 3.1.9 ^^U è la nuo-va nu-me-ra-zio-ne sem-
+Overfull \hbox (2.60318pt too wide) in paragraph at lines 60--61
+\T1/cmr/m/n/10.95 se-sta ge-ne-ra-zio-ne del-le cpu x86
  []
 
 
-Overfull \hbox (7.89153pt too wide) in paragraph at lines 53--54
-\T1/fca/m/n/10.95 sio-ne del ven-te-si-mo an-ni-ver-sa-rio del
- []
-
-
-Overfull \hbox (2.47142pt too wide) in paragraph at lines 55--56
-[]\T1/fca/m/n/10.95 3 --- è la ma-jor ver-sion che cor-
- []
-
-
-Overfull \hbox (2.58087pt too wide) in paragraph at lines 57--58
-\T1/fca/m/n/10.95 gior-na-men-ti di si-cu-rez-za e bug
- []
-
-
-Overfull \hbox (2.79987pt too wide) in paragraph at lines 60--61
-[]\T1/fca/m/n/10.95 i686 --- in-di-ca l'ar-chi-tet-tu-ra del
+Overfull \hbox (6.1557pt too wide) in paragraph at lines 64--66
+\T1/cmr/m/n/10.95 treb-be es-se-re la se-guen-te: \T1/cmr/m/it/10.95 http://www
+. ma-
  []
 
 
@@ -2602,7 +2066,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--66
  []
 
 
-<articoli/sistema_avanzato/immagini/kernel_map.png, id=152, 1027.84pt x 770.88p
+<articoli/sistema_avanzato/immagini/kernel_map.png, id=171, 1027.84pt x 770.88p
 t>
 File: articoli/sistema_avanzato/immagini/kernel_map.png Graphic file (type png)
 
@@ -2611,7 +2075,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
-[30]) [31 <./articoli/sistema_avanzato/immagini/kernel_map.png>]
+[31]) [32 <./articoli/sistema_avanzato/immagini/kernel_map.png>]
 \openout2 = `articoli/sistema_sicurezza/keyserver.aux'.
 
 
@@ -2636,18 +2100,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
  []
 
 
-Overfull \hbox (12.6985pt too wide) in paragraph at lines 20--21
-[]\T1/fca/m/n/10.95 Il mec-ca-ni-smo ri-sul-ta es-se-re al-quan-to sem-
- []
-
-
-Overfull \hbox (3.02965pt too wide) in paragraph at lines 20--21
-\T1/fca/m/n/10.95 ten-ti-ca-zio-ne dei do-cu-men-ti te-le-ma-ti-ci che
- []
-
-
-Overfull \hbox (1.35435pt too wide) in paragraph at lines 20--21
-\T1/fca/m/n/10.95 ora-mai sta pren-den-do pie-de an-che in Ita-
+Overfull \hbox (4.55063pt too wide) in paragraph at lines 20--21
+[]\T1/cmr/m/n/10.95 Il mec-ca-ni-smo ri-sul-ta es-se-re al-quan-to sem-
  []
 
 
@@ -2670,29 +2124,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-[32
-
-
-
-
-]
 Package color Info: Redefining color shadecolor on input line 29.
-
-Overfull \hbox (2.23029pt too wide) in paragraph at lines 28--30
-\T1/fca/m/n/10.95 che co-pri-rà prin-ci-pal-men-te tre te-ma-ti-che: 
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
-
-Overfull \hbox (0.58792pt too wide) in paragraph at lines 37--38
-[]\T1/fca/b/n/10.95 Punto 1. Crea-zio-ne di una chia-ve PGP. 
- []
+[33
 
 
+
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
@@ -2718,8 +2161,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
  []
 
 
-Overfull \hbox (4.60663pt too wide) in paragraph at lines 48--50
-\T1/fca/m/n/10.95 da-ta di sca-den-za al-la chia-ve nel qual
+Overfull \hbox (2.04924pt too wide) in paragraph at lines 48--50
+\T1/cmr/m/n/10.95 da-ta di sca-den-za al-la chia-ve nel qual
+ []
+
+
+Overfull \hbox (1.68288pt too wide) in paragraph at lines 48--50
+\T1/cmr/m/n/10.95 ca-so per-de-ste o ca-des-se in ma-ni sba-
  []
 
 
@@ -2728,18 +2176,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--50
  []
 
 
-Overfull \hbox (1.50766pt too wide) in paragraph at lines 50--51
-\T1/fca/m/n/10.95 via-te-la al Key-ser-ver di Fe-do-ra, ren-
- []
-
-
-Overfull \hbox (1.70485pt too wide) in paragraph at lines 50--51
-\T1/fca/m/n/10.95 don-do-la co-sì pub-bli-ca-men-te di-spo-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 52--53
+[]\T1/cmr/m/n/10.95 $ gpg --send-keys KEY-ID --keyserver
  []
 
 
@@ -2763,18 +2206,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
  []
 
 
-Overfull \hbox (0.19376pt too wide) in paragraph at lines 64--65
-[]\T1/fca/m/n/10.95 2a. Ot-te-nia-mo la chia-ve che vo-glia-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 66--67
-[]\T1/fca/m/n/10.95 $ gpg --recv-key KEY-ID --keyserver
+Underfull \hbox (badness 3965) in paragraph at lines 66--67
+[]\T1/cmr/m/n/10.95 $ gpg --recv-key KEY-ID --keyserver
  []
 
 
@@ -2782,12 +2220,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-[33]
+
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
@@ -2803,11 +2241,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
  []
 
 
-Overfull \hbox (15.89597pt too wide) in paragraph at lines 78--79
-\T1/fca/b/n/10.95 bi-le so-la-men-te da una de-ter-mi-na-ta chia-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
@@ -2819,22 +2252,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
-[]\T1/fca/m/n/10.95 $ gpg --search-keys 'no-meu-
+[]\T1/cmr/m/n/10.95 $ gpg --search-keys 'no-meu-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
-\T1/fca/m/n/10.95 ten-te@example.com' --keyserver
+\T1/cmr/m/n/10.95 ten-te@example.com' --keyserver
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
- []
-
-
-Overfull \hbox (5.04456pt too wide) in paragraph at lines 85--86
-\T1/fca/m/n/10.95 ve cor-ret-ta dal-la li-sta, ve-ri-fi-ca-te che
  []
 
 
@@ -2853,13 +2281,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
  []
 
 
-Overfull \hbox (0.28131pt too wide) in paragraph at lines 93--94
-\T1/fca/m/n/10.95 ge-ne-ra-to ('no-me-fi-le.txt.gpg') al-l'u-
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
-
+Underfull \hbox (badness 1983) in paragraph at lines 95--96
+[]\T1/cmr/m/n/10.95 $ gpg --output no-me-fi-le.txt --decrypt
  []
 
 
@@ -2867,23 +2295,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-) [34]
+) [35]
 \openout2 = `articoli/notizie/features_f17.aux'.
 
  (./articoli/notizie/features_f17.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--12
 
- []
-
-
-Overfull \hbox (6.6979pt too wide) in paragraph at lines 14--15
-\T1/fca/m/n/10.95 ta del-la ver-sio-ne \T1/fca/m/sl/10.95 al-pha \T1/fca/m/n/10
-.95 di Fe-do-ra 17 ``Bee-
- []
-
-
-Overfull \hbox (0.11696pt too wide) in paragraph at lines 14--15
-\T1/fca/m/sl/10.95 raproject.org/wiki/Releases/17/Feature 
  []
 
 
@@ -2897,27 +2314,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
  []
 
 
-<articoli/notizie/immagini/roadmap_wiki.jpeg, id=170, 300.14174pt x 351.56343pt
+<articoli/notizie/immagini/roadmap_wiki.jpeg, id=189, 300.14174pt x 351.56343pt
 >
 File: articoli/notizie/immagini/roadmap_wiki.jpeg Graphic file (type jpg)
  <use articoli/notizie/immagini/roadmap_wiki.jpeg>
-Underfull \hbox (badness 1953) in paragraph at lines 21--21
-[]\T1/fca/m/n/10.95 Figura 18: road-map per Fe-do-ra 17
- []
-
-
-Overfull \hbox (4.05896pt too wide) in paragraph at lines 25--26
-\T1/fca/m/n/10.95 cet-ta-te è mol-to dif-fe-ren-zia-ta, ma tra que-
- []
-
-
-Overfull \hbox (11.1218pt too wide) in paragraph at lines 33--34
-[]\T1/fca/m/n/10.95 Software ren-de-ring for gnome-shell. 
- []
-
-
-Overfull \hbox (4.64967pt too wide) in paragraph at lines 35--36
-[]\T1/fca/m/n/10.95 ABRT Back-tra-ce De-du-pli-ca-tion Ser-
+Overfull \hbox (5.59036pt too wide) in paragraph at lines 35--36
+[]\T1/cmr/m/n/10.95 ABRT Back-tra-ce De-du-pli-ca-tion Ser-
  []
 
 
@@ -2925,50 +2327,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-[35
+[36
 
 
 
 
  <./articoli/notizie/immagini/roadmap_wiki.jpeg>]
-<articoli/notizie/immagini/gnome_3_4.jpeg, id=174, 943.19725pt x 525.46312pt>
+<articoli/notizie/immagini/gnome_3_4.jpeg, id=193, 943.19725pt x 525.46312pt>
 File: articoli/notizie/immagini/gnome_3_4.jpeg Graphic file (type jpg)
 
 <use articoli/notizie/immagini/gnome_3_4.jpeg>
-Overfull \hbox (4.12468pt too wide) in paragraph at lines 58--59
-\T1/fca/m/sl/10.95 Ma-na-ge-ment Sy-stem Set-tings \T1/fca/m/n/10.95 è sta-ta a
-g-
- []
-
-<articoli/notizie/immagini/kde_4_8.jpeg, id=175, 943.9347pt x 525.46312pt>
+<articoli/notizie/immagini/kde_4_8.jpeg, id=194, 943.9347pt x 525.46312pt>
 File: articoli/notizie/immagini/kde_4_8.jpeg Graphic file (type jpg)
 
 <use articoli/notizie/immagini/kde_4_8.jpeg>
-Overfull \hbox (5.31822pt too wide) in paragraph at lines 69--70
-\T1/fca/m/n/10.95 nuo-vo mec-ca-ni-smo per re-go-la-re la di-men-
- []
-
-<articoli/notizie/immagini/kernel.jpeg, id=176, 943.19725pt x 525.46312pt>
+<articoli/notizie/immagini/kernel.jpeg, id=195, 943.19725pt x 525.46312pt>
 File: articoli/notizie/immagini/kernel.jpeg Graphic file (type jpg)
 
-<use articoli/notizie/immagini/kernel.jpeg> [36 <./articoli/notizie/immagini/gn
+<use articoli/notizie/immagini/kernel.jpeg> [37 <./articoli/notizie/immagini/gn
 ome_3_4.jpeg> <./articoli/notizie/immagini/kde_4_8.jpeg> <./articoli/notizie/im
 magini/kernel.jpeg>]
-Overfull \hbox (8.14328pt too wide) in paragraph at lines 85--86
-\T1/fca/m/n/10.95 Come già vi-sto nel-l'ar-ti-co-lo re-la-ti-vo ai pac-
- []
-
-
-Overfull \hbox (4.78165pt too wide) in paragraph at lines 95--96
-\T1/fca/m/n/10.95 cloud com-pu-ting si in-se-ri-sce an-che il tool-
- []
-
-
-Overfull \hbox (0.13884pt too wide) in paragraph at lines 115--116
-\T1/fca/m/n/10.95 clu-ster, che ren-de più age-vo-le la lo-ro ge-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
@@ -2983,25 +2361,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--75
 
  []
 
-[37]
+[38]
 \openout2 = `articoli/varie/ultima_copertina.aux'.
 
  (./articoli/varie/ultima_copertina.tex
 File: immagini/logo/cc.png Graphic file (type png)
  <use immagini/logo/cc.png>)
-<articoli/varie/immagini/ultima_copertina.png, id=183, 2055.68pt x 1541.76pt>
-File: articoli/varie/immagini/ultima_copertina.png Graphic file (type png)
+<articoli/varie/immagini/folio-retro.jpg, id=202, 597.432pt x 844.8363pt>
+File: articoli/varie/immagini/folio-retro.jpg Graphic file (type jpg)
 
-<use articoli/varie/immagini/ultima_copertina.png>
-File: articoli/varie/immagini/ultima_copertina.png Graphic file (type png)
+<use articoli/varie/immagini/folio-retro.jpg>
+File: articoli/varie/immagini/folio-retro.jpg Graphic file (type jpg)
 
-<use articoli/varie/immagini/ultima_copertina.png> [38
-
-
+<use articoli/varie/immagini/folio-retro.jpg> [39
 
 
- <./articoli/varie/immagini/ultima_copertina.png>] (./folio_00.aux (./credits.a
-ux)
+
+
+ <./articoli/varie/immagini/folio-retro.jpg>] (./folio_00.aux (./credits.aux)
 (./articoli/editoriale/editoriale.aux) (./articoli/varie/fedoraproject.aux)
 (./articoli/varie/intervista.aux) (./articoli/fedora_inside/andrea.aux)
 (./articoli/editoriale/fol_motivi.aux) (./articoli/primi_passi/terminale.aux)
@@ -3011,26 +2388,49 @@ ux)
 (./articoli/sistema_sicurezza/keyserver.aux)
 (./articoli/notizie/features_f17.aux) (./articoli/varie/ultima_copertina.aux))
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.47836pt have occurred.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3712 strings out of 256216
- 55470 string characters out of 1917071
- 104504 words of memory out of 1500000
- 6731 multiletter control sequences out of 10000+200000
- 37730 words of font info for 104 fonts, out of 1200000 for 2000
+ 2806 strings out of 256216
+ 41715 string characters out of 1917072
+ 98432 words of memory out of 1500000
+ 5873 multiletter control sequences out of 10000+200000
+ 28940 words of font info for 55 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 29i,9n,43p,1432b,302s stack positions out of 5000i,500n,6000p,200000b,15000s
-{/usr/share/texmf/fonts/enc/dvips/cantarell/cantarell-02.enc}{/usr/share/texm
-f/fonts/enc/dvips/cantarell/cantarell-01.enc}</usr/share/texmf/fonts/type1/publ
-ic/cantarell/Cantarell-Bold.pfb></usr/share/texmf/fonts/type1/public/cantarell/
-Cantarell-Bold.pfb></usr/share/texmf/fonts/type1/public/cantarell/Cantarell-Reg
-ular.pfb></usr/share/texmf/fonts/type1/public/cantarell/Cantarell-Regular.pfb><
-/usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb>
-Output written on folio_00.pdf (41 pages, 7321889 bytes).
+ 29i,9n,43p,1432b,293s stack positions out of 5000i,500n,6000p,200000b,15000s
+ </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1095.600
+pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi0900.60
+0pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0900.6
+00pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1000.
+600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095
+.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm109
+5.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx35
+83.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1
+728.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
+0800.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecb
+x2488.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+rm1000.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+cbx0800.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecbx1440.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec
+/ecbx1728.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/e
+c/eccc1200.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecrm1200.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen
+/ec/ecbi1200.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecrm0500.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknapp
+en/ec/ecbx0600.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecrm0600.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecbx1095.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/eccc1440.600pk> </home/gabri/.texlive2007/texmf-var/fonts/pk/ljfour/jk
+nappen/ec/eccc1728.600pk></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></
+usr/share/texmf/fonts/type1/bluesky/cm/cmsy6.pfb>
+Output written on folio_00.pdf (42 pages, 5801111 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
+ 1084 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
